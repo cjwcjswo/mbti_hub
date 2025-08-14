@@ -22,9 +22,8 @@ cmds = [
 [phases.build]
 cmds = [
     "source /opt/venv/bin/activate && python manage.py collectstatic --noinput",
-    "source /opt/venv/bin/activate && python manage.py migrate",
-    "source /opt/venv/bin/activate && python manage.py seed_data"
+    "chmod +x start.sh"
 ]
 
 [start]
-cmd = "source /opt/venv/bin/activate && gunicorn mbti_hub.wsgi:application --bind 0.0.0.0:$PORT"
+cmd = "./start.sh"
