@@ -7,9 +7,9 @@ interface AdBannerProps {
 const AdBanner = ({ position }: AdBannerProps) => {
   useEffect(() => {
     // Google AdSense 광고 로드
-    if (window.adsbygoogle) {
+    if ((window as any).adsbygoogle) {
       try {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
+        ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
       } catch (error) {
         console.error('AdSense error:', error);
       }
