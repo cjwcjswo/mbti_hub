@@ -1,0 +1,15 @@
+# Ignore everything except Python files
+*
+!*.py
+!*.txt
+!*.md
+!*.json
+!*.toml
+!*.cfg
+!requirements.txt
+!manage.py
+!mbti_hub/
+!api/
+!static/
+!media/
+!.env

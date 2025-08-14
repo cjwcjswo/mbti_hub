@@ -9,3 +9,15 @@ healthcheckTimeout = 300
 [[services]]
 name = "mbti_hub"
 sourceDir = "server"
+
+[phases.setup]
+nixPkgs = ["python312", "postgresql"]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
+
+[phases.build]
+cmds = ["python manage.py collectstatic --noinput"]
+
+[start]
+cmd = "gunicorn mbti_hub.wsgi:application --bind 0.0.0.0:$PORT"

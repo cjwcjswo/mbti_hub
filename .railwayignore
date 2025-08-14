@@ -1,0 +1,32 @@
+# Frontend files to ignore
+src/
+public/
+index.html
+package.json
+package-lock.json
+vite.config.ts
+tsconfig.json
+tailwind.config.js
+postcss.config.js
+vercel.json
+
+# Development files
+node_modules/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
