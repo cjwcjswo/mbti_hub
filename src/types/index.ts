@@ -29,24 +29,32 @@ export interface Test {
   tags?: string[]
 }
 
+// Django API 응답에 맞는 카테고리 타입
+export interface Category {
+  id: number
+  name: string
+  emoji: string
+  description: string
+  color: string
+  created_at: string
+  tests: TestCard[]
+}
+
 // 홈페이지에서 사용하는 통합 테스트 타입
 export interface TestCard {
   id: string
   title: string
   description: string
-  category: string
+  category: {
+    id: number
+    name: string
+    emoji: string
+    description: string
+    color: string
+  }
   estimatedTime: number
   difficulty: 'easy' | 'medium' | 'hard'
   thumbnail: string
-}
-
-// 카테고리 정보 타입
-export interface Category {
-  name: string
-  emoji: string
-  description: string
-  color: string
-  tests: TestCard[]
 }
 
 // 홈페이지 데이터 타입
@@ -104,19 +112,19 @@ export interface AdConfig {
   coupangPartners?: {
     accessKey: string
     secretKey: string
-    tagId: string
+    trackingId: string
   }
 }
 
 export interface AdSlot {
   id: string
-  position: 'header' | 'sidebar' | 'footer' | 'content'
-  adUnit: string
-  responsive?: boolean
+  adUnitPath: string
+  size: [number, number]
+  position: 'top' | 'bottom' | 'sidebar' | 'inline'
 }
 
 // API 응답 타입
-export interface ApiResponse<T> {
+export interface ApiResponse<T = any> {
   success: boolean
   data?: T
   error?: string
@@ -125,14 +133,18 @@ export interface ApiResponse<T> {
 
 // 페이지네이션 타입
 export interface PaginationParams {
-  page: number
-  limit: number
+  page?: number
+  pageSize?: number
+  search?: string
+  category?: string
+  difficulty?: string
 }
 
 export interface PaginatedResponse<T> {
-  data: T[]
-  total: number
+  results: T[]
+  count: number
+  next?: string
+  previous?: string
   page: number
-  limit: number
   totalPages: number
 }

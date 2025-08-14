@@ -1,0 +1,2505 @@
+{
+  "id": "test_1754983060023",
+  "title": "음식 MBTI 테스트",
+  "description": "음식에 대한 당신의 성격 유형을 알아보세요!",
+  "category": "음식",
+  "questions": [
+    {
+      "id": 1,
+      "text": "음식 상황에서 당신은 어떻게 행동하시나요?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 3,
+            "ENTJ": 5,
+            "ENTP": 1,
+            "INFJ": 5,
+            "INFP": 3,
+            "ENFJ": 3,
+            "ENFP": 4,
+            "ISTJ": 5,
+            "ISFJ": 5,
+            "ESTJ": 1,
+            "ESFJ": 3,
+            "ISTP": 3,
+            "ISFP": 1,
+            "ESTP": 2,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 5,
+            "ENTJ": 1,
+            "ENTP": 4,
+            "INFJ": 5,
+            "INFP": 1,
+            "ENFJ": 4,
+            "ENFP": 2,
+            "ISTJ": 4,
+            "ISFJ": 3,
+            "ESTJ": 2,
+            "ESFJ": 5,
+            "ISTP": 5,
+            "ISFP": 5,
+            "ESTP": 2,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 4,
+            "ENTJ": 2,
+            "ENTP": 5,
+            "INFJ": 2,
+            "INFP": 2,
+            "ENFJ": 2,
+            "ENFP": 5,
+            "ISTJ": 2,
+            "ISFJ": 4,
+            "ESTJ": 2,
+            "ESFJ": 4,
+            "ISTP": 1,
+            "ISFP": 5,
+            "ESTP": 4,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 1,
+            "ENTJ": 3,
+            "ENTP": 2,
+            "INFJ": 4,
+            "INFP": 4,
+            "ENFJ": 2,
+            "ENFP": 3,
+            "ISTJ": 4,
+            "ISFJ": 4,
+            "ESTJ": 2,
+            "ESFJ": 3,
+            "ISTP": 3,
+            "ISFP": 4,
+            "ESTP": 3,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 3,
+            "ENTJ": 3,
+            "ENTP": 4,
+            "INFJ": 2,
+            "INFP": 5,
+            "ENFJ": 3,
+            "ENFP": 4,
+            "ISTJ": 1,
+            "ISFJ": 4,
+            "ESTJ": 3,
+            "ESFJ": 3,
+            "ISTP": 1,
+            "ISFP": 2,
+            "ESTP": 3,
+            "ESFP": 1
+          }
+        }
+      ],
+      "category": "관계"
+    },
+    {
+      "id": 2,
+      "text": "음식에 대해 어떻게 생각하시나요?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 1,
+            "ENTJ": 3,
+            "ENTP": 1,
+            "INFJ": 3,
+            "INFP": 5,
+            "ENFJ": 4,
+            "ENFP": 1,
+            "ISTJ": 1,
+            "ISFJ": 4,
+            "ESTJ": 3,
+            "ESFJ": 2,
+            "ISTP": 4,
+            "ISFP": 4,
+            "ESTP": 4,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 1,
+            "ENTJ": 3,
+            "ENTP": 3,
+            "INFJ": 3,
+            "INFP": 1,
+            "ENFJ": 5,
+            "ENFP": 1,
+            "ISTJ": 2,
+            "ISFJ": 3,
+            "ESTJ": 4,
+            "ESFJ": 2,
+            "ISTP": 2,
+            "ISFP": 1,
+            "ESTP": 2,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 3,
+            "ENTJ": 1,
+            "ENTP": 4,
+            "INFJ": 4,
+            "INFP": 2,
+            "ENFJ": 4,
+            "ENFP": 5,
+            "ISTJ": 1,
+            "ISFJ": 1,
+            "ESTJ": 3,
+            "ESFJ": 2,
+            "ISTP": 2,
+            "ISFP": 5,
+            "ESTP": 2,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 4,
+            "ENTJ": 4,
+            "ENTP": 4,
+            "INFJ": 2,
+            "INFP": 4,
+            "ENFJ": 2,
+            "ENFP": 1,
+            "ISTJ": 1,
+            "ISFJ": 4,
+            "ESTJ": 1,
+            "ESFJ": 1,
+            "ISTP": 5,
+            "ISFP": 1,
+            "ESTP": 2,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 1,
+            "ENTJ": 3,
+            "ENTP": 5,
+            "INFJ": 2,
+            "INFP": 1,
+            "ENFJ": 2,
+            "ENFP": 4,
+            "ISTJ": 3,
+            "ISFJ": 1,
+            "ESTJ": 1,
+            "ESFJ": 4,
+            "ISTP": 4,
+            "ISFP": 4,
+            "ESTP": 1,
+            "ESFP": 4
+          }
+        }
+      ],
+      "category": "관계"
+    },
+    {
+      "id": 3,
+      "text": "음식 상황에서 당신은 어떻게 행동하시나요?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 3,
+            "ENTJ": 5,
+            "ENTP": 1,
+            "INFJ": 3,
+            "INFP": 5,
+            "ENFJ": 2,
+            "ENFP": 4,
+            "ISTJ": 5,
+            "ISFJ": 1,
+            "ESTJ": 1,
+            "ESFJ": 5,
+            "ISTP": 5,
+            "ISFP": 5,
+            "ESTP": 2,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 1,
+            "ENTJ": 2,
+            "ENTP": 1,
+            "INFJ": 5,
+            "INFP": 5,
+            "ENFJ": 4,
+            "ENFP": 2,
+            "ISTJ": 3,
+            "ISFJ": 5,
+            "ESTJ": 1,
+            "ESFJ": 3,
+            "ISTP": 4,
+            "ISFP": 4,
+            "ESTP": 3,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 3,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 3,
+            "INFP": 4,
+            "ENFJ": 2,
+            "ENFP": 4,
+            "ISTJ": 5,
+            "ISFJ": 4,
+            "ESTJ": 2,
+            "ESFJ": 5,
+            "ISTP": 2,
+            "ISFP": 1,
+            "ESTP": 4,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 4,
+            "ENTJ": 3,
+            "ENTP": 5,
+            "INFJ": 5,
+            "INFP": 1,
+            "ENFJ": 2,
+            "ENFP": 4,
+            "ISTJ": 2,
+            "ISFJ": 2,
+            "ESTJ": 5,
+            "ESFJ": 3,
+            "ISTP": 5,
+            "ISFP": 3,
+            "ESTP": 1,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 5,
+            "ENTJ": 5,
+            "ENTP": 1,
+            "INFJ": 3,
+            "INFP": 5,
+            "ENFJ": 4,
+            "ENFP": 3,
+            "ISTJ": 4,
+            "ISFJ": 3,
+            "ESTJ": 1,
+            "ESFJ": 3,
+            "ISTP": 3,
+            "ISFP": 1,
+            "ESTP": 5,
+            "ESFP": 3
+          }
+        }
+      ],
+      "category": "직업"
+    },
+    {
+      "id": 4,
+      "text": "음식에 직면했을 때 당신은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 3,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 4,
+            "ENFJ": 1,
+            "ENFP": 2,
+            "ISTJ": 1,
+            "ISFJ": 4,
+            "ESTJ": 1,
+            "ESFJ": 4,
+            "ISTP": 1,
+            "ISFP": 3,
+            "ESTP": 5,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 1,
+            "INFJ": 2,
+            "INFP": 5,
+            "ENFJ": 1,
+            "ENFP": 3,
+            "ISTJ": 1,
+            "ISFJ": 5,
+            "ESTJ": 4,
+            "ESFJ": 5,
+            "ISTP": 5,
+            "ISFP": 3,
+            "ESTP": 3,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 4,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 4,
+            "ENFJ": 5,
+            "ENFP": 3,
+            "ISTJ": 5,
+            "ISFJ": 3,
+            "ESTJ": 3,
+            "ESFJ": 1,
+            "ISTP": 1,
+            "ISFP": 4,
+            "ESTP": 5,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 3,
+            "ENTJ": 1,
+            "ENTP": 5,
+            "INFJ": 4,
+            "INFP": 1,
+            "ENFJ": 1,
+            "ENFP": 2,
+            "ISTJ": 4,
+            "ISFJ": 5,
+            "ESTJ": 1,
+            "ESFJ": 5,
+            "ISTP": 1,
+            "ISFP": 1,
+            "ESTP": 5,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 2,
+            "ENTJ": 4,
+            "ENTP": 3,
+            "INFJ": 1,
+            "INFP": 1,
+            "ENFJ": 2,
+            "ENFP": 4,
+            "ISTJ": 5,
+            "ISFJ": 3,
+            "ESTJ": 5,
+            "ESFJ": 2,
+            "ISTP": 2,
+            "ISFP": 1,
+            "ESTP": 5,
+            "ESFP": 4
+          }
+        }
+      ],
+      "category": "라이프스타일"
+    },
+    {
+      "id": 5,
+      "text": "음식와 관련된 상황에서 당신의 선택은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 3,
+            "ENTJ": 5,
+            "ENTP": 1,
+            "INFJ": 1,
+            "INFP": 4,
+            "ENFJ": 3,
+            "ENFP": 5,
+            "ISTJ": 4,
+            "ISFJ": 4,
+            "ESTJ": 2,
+            "ESFJ": 4,
+            "ISTP": 3,
+            "ISFP": 5,
+            "ESTP": 1,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 4,
+            "ENTJ": 3,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 1,
+            "ENFJ": 2,
+            "ENFP": 3,
+            "ISTJ": 1,
+            "ISFJ": 2,
+            "ESTJ": 2,
+            "ESFJ": 2,
+            "ISTP": 3,
+            "ISFP": 3,
+            "ESTP": 5,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 3,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 5,
+            "INFP": 3,
+            "ENFJ": 3,
+            "ENFP": 1,
+            "ISTJ": 3,
+            "ISFJ": 3,
+            "ESTJ": 3,
+            "ESFJ": 5,
+            "ISTP": 2,
+            "ISFP": 2,
+            "ESTP": 4,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 2,
+            "ENTJ": 4,
+            "ENTP": 1,
+            "INFJ": 4,
+            "INFP": 4,
+            "ENFJ": 1,
+            "ENFP": 2,
+            "ISTJ": 5,
+            "ISFJ": 4,
+            "ESTJ": 3,
+            "ESFJ": 4,
+            "ISTP": 3,
+            "ISFP": 5,
+            "ESTP": 2,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 5,
+            "ENTJ": 3,
+            "ENTP": 1,
+            "INFJ": 3,
+            "INFP": 5,
+            "ENFJ": 2,
+            "ENFP": 2,
+            "ISTJ": 3,
+            "ISFJ": 2,
+            "ESTJ": 4,
+            "ESFJ": 2,
+            "ISTP": 4,
+            "ISFP": 4,
+            "ESTP": 3,
+            "ESFP": 1
+          }
+        }
+      ],
+      "category": "성격"
+    },
+    {
+      "id": 6,
+      "text": "음식에 대한 당신의 관점은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 1,
+            "INFJ": 5,
+            "INFP": 4,
+            "ENFJ": 1,
+            "ENFP": 4,
+            "ISTJ": 2,
+            "ISFJ": 4,
+            "ESTJ": 2,
+            "ESFJ": 5,
+            "ISTP": 1,
+            "ISFP": 3,
+            "ESTP": 5,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 5,
+            "INFJ": 2,
+            "INFP": 1,
+            "ENFJ": 5,
+            "ENFP": 1,
+            "ISTJ": 5,
+            "ISFJ": 2,
+            "ESTJ": 5,
+            "ESFJ": 1,
+            "ISTP": 2,
+            "ISFP": 4,
+            "ESTP": 1,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 2,
+            "ENTJ": 4,
+            "ENTP": 2,
+            "INFJ": 5,
+            "INFP": 4,
+            "ENFJ": 5,
+            "ENFP": 2,
+            "ISTJ": 5,
+            "ISFJ": 4,
+            "ESTJ": 2,
+            "ESFJ": 3,
+            "ISTP": 4,
+            "ISFP": 5,
+            "ESTP": 3,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 3,
+            "INFJ": 5,
+            "INFP": 4,
+            "ENFJ": 1,
+            "ENFP": 4,
+            "ISTJ": 1,
+            "ISFJ": 5,
+            "ESTJ": 4,
+            "ESFJ": 2,
+            "ISTP": 1,
+            "ISFP": 5,
+            "ESTP": 4,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 3,
+            "ENTJ": 3,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 4,
+            "ENFJ": 1,
+            "ENFP": 5,
+            "ISTJ": 2,
+            "ISFJ": 4,
+            "ESTJ": 1,
+            "ESFJ": 3,
+            "ISTP": 4,
+            "ISFP": 2,
+            "ESTP": 1,
+            "ESFP": 5
+          }
+        }
+      ],
+      "category": "직업"
+    },
+    {
+      "id": 7,
+      "text": "음식에 직면했을 때 당신은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 2,
+            "ENTJ": 2,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 4,
+            "ENFJ": 5,
+            "ENFP": 1,
+            "ISTJ": 4,
+            "ISFJ": 3,
+            "ESTJ": 3,
+            "ESFJ": 3,
+            "ISTP": 2,
+            "ISFP": 1,
+            "ESTP": 3,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 4,
+            "ENTJ": 5,
+            "ENTP": 1,
+            "INFJ": 3,
+            "INFP": 5,
+            "ENFJ": 1,
+            "ENFP": 4,
+            "ISTJ": 4,
+            "ISFJ": 3,
+            "ESTJ": 3,
+            "ESFJ": 3,
+            "ISTP": 3,
+            "ISFP": 3,
+            "ESTP": 3,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 3,
+            "ENTJ": 1,
+            "ENTP": 1,
+            "INFJ": 1,
+            "INFP": 5,
+            "ENFJ": 3,
+            "ENFP": 2,
+            "ISTJ": 5,
+            "ISFJ": 2,
+            "ESTJ": 2,
+            "ESFJ": 3,
+            "ISTP": 2,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 5,
+            "ENTJ": 1,
+            "ENTP": 4,
+            "INFJ": 4,
+            "INFP": 5,
+            "ENFJ": 4,
+            "ENFP": 4,
+            "ISTJ": 1,
+            "ISFJ": 1,
+            "ESTJ": 3,
+            "ESFJ": 3,
+            "ISTP": 1,
+            "ISFP": 1,
+            "ESTP": 2,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 5,
+            "ENTJ": 5,
+            "ENTP": 4,
+            "INFJ": 5,
+            "INFP": 4,
+            "ENFJ": 1,
+            "ENFP": 2,
+            "ISTJ": 1,
+            "ISFJ": 4,
+            "ESTJ": 5,
+            "ESFJ": 5,
+            "ISTP": 3,
+            "ISFP": 1,
+            "ESTP": 2,
+            "ESFP": 5
+          }
+        }
+      ],
+      "category": "취미"
+    },
+    {
+      "id": 8,
+      "text": "음식와 관련된 상황에서 당신의 선택은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 2,
+            "INFJ": 3,
+            "INFP": 4,
+            "ENFJ": 2,
+            "ENFP": 1,
+            "ISTJ": 2,
+            "ISFJ": 3,
+            "ESTJ": 2,
+            "ESFJ": 5,
+            "ISTP": 5,
+            "ISFP": 5,
+            "ESTP": 3,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 3,
+            "ENTJ": 2,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 4,
+            "ENFJ": 4,
+            "ENFP": 4,
+            "ISTJ": 3,
+            "ISFJ": 5,
+            "ESTJ": 1,
+            "ESFJ": 3,
+            "ISTP": 5,
+            "ISFP": 4,
+            "ESTP": 4,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 4,
+            "ENTJ": 2,
+            "ENTP": 4,
+            "INFJ": 1,
+            "INFP": 5,
+            "ENFJ": 3,
+            "ENFP": 2,
+            "ISTJ": 4,
+            "ISFJ": 2,
+            "ESTJ": 3,
+            "ESFJ": 4,
+            "ISTP": 5,
+            "ISFP": 4,
+            "ESTP": 4,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 4,
+            "ENTJ": 2,
+            "ENTP": 2,
+            "INFJ": 1,
+            "INFP": 1,
+            "ENFJ": 5,
+            "ENFP": 4,
+            "ISTJ": 1,
+            "ISFJ": 5,
+            "ESTJ": 3,
+            "ESFJ": 5,
+            "ISTP": 5,
+            "ISFP": 5,
+            "ESTP": 2,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 5,
+            "INFJ": 2,
+            "INFP": 3,
+            "ENFJ": 3,
+            "ENFP": 5,
+            "ISTJ": 4,
+            "ISFJ": 3,
+            "ESTJ": 2,
+            "ESFJ": 2,
+            "ISTP": 3,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 1
+          }
+        }
+      ],
+      "category": "가치관"
+    },
+    {
+      "id": 9,
+      "text": "음식 상황에서 당신은 어떻게 행동하시나요?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 2,
+            "ENTJ": 2,
+            "ENTP": 1,
+            "INFJ": 2,
+            "INFP": 2,
+            "ENFJ": 5,
+            "ENFP": 3,
+            "ISTJ": 5,
+            "ISFJ": 2,
+            "ESTJ": 2,
+            "ESFJ": 1,
+            "ISTP": 4,
+            "ISFP": 2,
+            "ESTP": 5,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 5,
+            "ENTJ": 1,
+            "ENTP": 2,
+            "INFJ": 3,
+            "INFP": 1,
+            "ENFJ": 1,
+            "ENFP": 3,
+            "ISTJ": 5,
+            "ISFJ": 4,
+            "ESTJ": 1,
+            "ESFJ": 2,
+            "ISTP": 5,
+            "ISFP": 1,
+            "ESTP": 3,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 1,
+            "ENTJ": 1,
+            "ENTP": 2,
+            "INFJ": 4,
+            "INFP": 3,
+            "ENFJ": 4,
+            "ENFP": 5,
+            "ISTJ": 2,
+            "ISFJ": 1,
+            "ESTJ": 4,
+            "ESFJ": 2,
+            "ISTP": 2,
+            "ISFP": 1,
+            "ESTP": 2,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 2,
+            "ENTJ": 5,
+            "ENTP": 1,
+            "INFJ": 1,
+            "INFP": 3,
+            "ENFJ": 4,
+            "ENFP": 1,
+            "ISTJ": 1,
+            "ISFJ": 1,
+            "ESTJ": 3,
+            "ESFJ": 3,
+            "ISTP": 3,
+            "ISFP": 4,
+            "ESTP": 2,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 2,
+            "ENTJ": 5,
+            "ENTP": 3,
+            "INFJ": 1,
+            "INFP": 4,
+            "ENFJ": 5,
+            "ENFP": 1,
+            "ISTJ": 2,
+            "ISFJ": 4,
+            "ESTJ": 4,
+            "ESFJ": 5,
+            "ISTP": 3,
+            "ISFP": 5,
+            "ESTP": 2,
+            "ESFP": 4
+          }
+        }
+      ],
+      "category": "직업"
+    },
+    {
+      "id": 10,
+      "text": "음식와 관련된 상황에서 당신의 선택은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 3,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 3,
+            "INFP": 5,
+            "ENFJ": 3,
+            "ENFP": 1,
+            "ISTJ": 5,
+            "ISFJ": 4,
+            "ESTJ": 4,
+            "ESFJ": 3,
+            "ISTP": 1,
+            "ISFP": 1,
+            "ESTP": 3,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 2,
+            "ENTJ": 3,
+            "ENTP": 3,
+            "INFJ": 3,
+            "INFP": 3,
+            "ENFJ": 1,
+            "ENFP": 1,
+            "ISTJ": 5,
+            "ISFJ": 5,
+            "ESTJ": 3,
+            "ESFJ": 2,
+            "ISTP": 3,
+            "ISFP": 2,
+            "ESTP": 2,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 5,
+            "ENTJ": 2,
+            "ENTP": 5,
+            "INFJ": 4,
+            "INFP": 4,
+            "ENFJ": 3,
+            "ENFP": 3,
+            "ISTJ": 3,
+            "ISFJ": 4,
+            "ESTJ": 4,
+            "ESFJ": 3,
+            "ISTP": 3,
+            "ISFP": 2,
+            "ESTP": 3,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 2,
+            "ENTJ": 4,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 4,
+            "ENFJ": 3,
+            "ENFP": 4,
+            "ISTJ": 5,
+            "ISFJ": 5,
+            "ESTJ": 4,
+            "ESFJ": 4,
+            "ISTP": 3,
+            "ISFP": 1,
+            "ESTP": 1,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 2,
+            "ENFJ": 2,
+            "ENFP": 2,
+            "ISTJ": 2,
+            "ISFJ": 4,
+            "ESTJ": 4,
+            "ESFJ": 4,
+            "ISTP": 2,
+            "ISFP": 4,
+            "ESTP": 4,
+            "ESFP": 4
+          }
+        }
+      ],
+      "category": "직업"
+    },
+    {
+      "id": 11,
+      "text": "음식에 대한 당신의 관점은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 1,
+            "ENTJ": 3,
+            "ENTP": 4,
+            "INFJ": 2,
+            "INFP": 3,
+            "ENFJ": 1,
+            "ENFP": 2,
+            "ISTJ": 2,
+            "ISFJ": 2,
+            "ESTJ": 2,
+            "ESFJ": 3,
+            "ISTP": 2,
+            "ISFP": 5,
+            "ESTP": 3,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 1,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 1,
+            "INFP": 2,
+            "ENFJ": 2,
+            "ENFP": 4,
+            "ISTJ": 4,
+            "ISFJ": 1,
+            "ESTJ": 5,
+            "ESFJ": 4,
+            "ISTP": 1,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 3,
+            "ENTJ": 1,
+            "ENTP": 1,
+            "INFJ": 2,
+            "INFP": 1,
+            "ENFJ": 5,
+            "ENFP": 1,
+            "ISTJ": 3,
+            "ISFJ": 4,
+            "ESTJ": 1,
+            "ESFJ": 4,
+            "ISTP": 3,
+            "ISFP": 4,
+            "ESTP": 2,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 5,
+            "ENTJ": 4,
+            "ENTP": 5,
+            "INFJ": 1,
+            "INFP": 5,
+            "ENFJ": 2,
+            "ENFP": 4,
+            "ISTJ": 4,
+            "ISFJ": 4,
+            "ESTJ": 1,
+            "ESFJ": 3,
+            "ISTP": 5,
+            "ISFP": 1,
+            "ESTP": 3,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 5,
+            "ENTJ": 1,
+            "ENTP": 2,
+            "INFJ": 3,
+            "INFP": 2,
+            "ENFJ": 2,
+            "ENFP": 1,
+            "ISTJ": 4,
+            "ISFJ": 2,
+            "ESTJ": 3,
+            "ESFJ": 3,
+            "ISTP": 3,
+            "ISFP": 1,
+            "ESTP": 5,
+            "ESFP": 2
+          }
+        }
+      ],
+      "category": "취미"
+    },
+    {
+      "id": 12,
+      "text": "음식 상황에서 당신은 어떻게 행동하시나요?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 1,
+            "ENTJ": 2,
+            "ENTP": 5,
+            "INFJ": 5,
+            "INFP": 2,
+            "ENFJ": 1,
+            "ENFP": 2,
+            "ISTJ": 2,
+            "ISFJ": 4,
+            "ESTJ": 1,
+            "ESFJ": 4,
+            "ISTP": 4,
+            "ISFP": 5,
+            "ESTP": 2,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 5,
+            "ENTJ": 3,
+            "ENTP": 2,
+            "INFJ": 2,
+            "INFP": 4,
+            "ENFJ": 5,
+            "ENFP": 5,
+            "ISTJ": 3,
+            "ISFJ": 1,
+            "ESTJ": 4,
+            "ESFJ": 1,
+            "ISTP": 3,
+            "ISFP": 5,
+            "ESTP": 2,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 4,
+            "ENTJ": 3,
+            "ENTP": 3,
+            "INFJ": 3,
+            "INFP": 3,
+            "ENFJ": 1,
+            "ENFP": 1,
+            "ISTJ": 2,
+            "ISFJ": 2,
+            "ESTJ": 3,
+            "ESFJ": 2,
+            "ISTP": 2,
+            "ISFP": 1,
+            "ESTP": 3,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 2,
+            "ENTJ": 1,
+            "ENTP": 5,
+            "INFJ": 5,
+            "INFP": 3,
+            "ENFJ": 4,
+            "ENFP": 4,
+            "ISTJ": 1,
+            "ISFJ": 3,
+            "ESTJ": 2,
+            "ESFJ": 1,
+            "ISTP": 1,
+            "ISFP": 2,
+            "ESTP": 4,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 2,
+            "INFJ": 1,
+            "INFP": 4,
+            "ENFJ": 2,
+            "ENFP": 1,
+            "ISTJ": 5,
+            "ISFJ": 1,
+            "ESTJ": 4,
+            "ESFJ": 2,
+            "ISTP": 2,
+            "ISFP": 5,
+            "ESTP": 4,
+            "ESFP": 1
+          }
+        }
+      ],
+      "category": "직업"
+    },
+    {
+      "id": 13,
+      "text": "음식에 대한 당신의 관점은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 4,
+            "ENTJ": 1,
+            "ENTP": 5,
+            "INFJ": 1,
+            "INFP": 1,
+            "ENFJ": 4,
+            "ENFP": 2,
+            "ISTJ": 3,
+            "ISFJ": 1,
+            "ESTJ": 4,
+            "ESFJ": 2,
+            "ISTP": 2,
+            "ISFP": 5,
+            "ESTP": 1,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 2,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 1,
+            "ENFJ": 2,
+            "ENFP": 1,
+            "ISTJ": 2,
+            "ISFJ": 1,
+            "ESTJ": 5,
+            "ESFJ": 5,
+            "ISTP": 2,
+            "ISFP": 2,
+            "ESTP": 1,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 5,
+            "ENTJ": 3,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 3,
+            "ENFJ": 5,
+            "ENFP": 4,
+            "ISTJ": 4,
+            "ISFJ": 1,
+            "ESTJ": 4,
+            "ESFJ": 4,
+            "ISTP": 2,
+            "ISFP": 1,
+            "ESTP": 5,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 4,
+            "ENTJ": 5,
+            "ENTP": 5,
+            "INFJ": 3,
+            "INFP": 1,
+            "ENFJ": 3,
+            "ENFP": 5,
+            "ISTJ": 3,
+            "ISFJ": 3,
+            "ESTJ": 3,
+            "ESFJ": 3,
+            "ISTP": 3,
+            "ISFP": 1,
+            "ESTP": 3,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 2,
+            "ENTJ": 5,
+            "ENTP": 2,
+            "INFJ": 1,
+            "INFP": 3,
+            "ENFJ": 4,
+            "ENFP": 4,
+            "ISTJ": 4,
+            "ISFJ": 5,
+            "ESTJ": 2,
+            "ESFJ": 2,
+            "ISTP": 5,
+            "ISFP": 2,
+            "ESTP": 2,
+            "ESFP": 4
+          }
+        }
+      ],
+      "category": "관계"
+    },
+    {
+      "id": 14,
+      "text": "음식에 대한 당신의 관점은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 4,
+            "ENTJ": 5,
+            "ENTP": 1,
+            "INFJ": 3,
+            "INFP": 1,
+            "ENFJ": 5,
+            "ENFP": 3,
+            "ISTJ": 5,
+            "ISFJ": 3,
+            "ESTJ": 5,
+            "ESFJ": 5,
+            "ISTP": 4,
+            "ISFP": 5,
+            "ESTP": 3,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 4,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 3,
+            "INFP": 5,
+            "ENFJ": 5,
+            "ENFP": 2,
+            "ISTJ": 4,
+            "ISFJ": 1,
+            "ESTJ": 2,
+            "ESFJ": 5,
+            "ISTP": 5,
+            "ISFP": 1,
+            "ESTP": 3,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 5,
+            "ENTJ": 5,
+            "ENTP": 1,
+            "INFJ": 2,
+            "INFP": 5,
+            "ENFJ": 2,
+            "ENFP": 2,
+            "ISTJ": 5,
+            "ISFJ": 3,
+            "ESTJ": 1,
+            "ESFJ": 3,
+            "ISTP": 5,
+            "ISFP": 4,
+            "ESTP": 5,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 2,
+            "ENTJ": 3,
+            "ENTP": 3,
+            "INFJ": 4,
+            "INFP": 5,
+            "ENFJ": 2,
+            "ENFP": 4,
+            "ISTJ": 5,
+            "ISFJ": 1,
+            "ESTJ": 5,
+            "ESFJ": 2,
+            "ISTP": 5,
+            "ISFP": 1,
+            "ESTP": 4,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 5,
+            "ENTJ": 1,
+            "ENTP": 4,
+            "INFJ": 5,
+            "INFP": 3,
+            "ENFJ": 1,
+            "ENFP": 1,
+            "ISTJ": 5,
+            "ISFJ": 1,
+            "ESTJ": 5,
+            "ESFJ": 5,
+            "ISTP": 2,
+            "ISFP": 2,
+            "ESTP": 4,
+            "ESFP": 2
+          }
+        }
+      ],
+      "category": "직업"
+    }
+  ],
+  "resultTypes": [
+    {
+      "mbtiType": "INTJ",
+      "title": "INTJ 성격 유형",
+      "description": "INTJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ISTP",
+          "INFJ"
+        ],
+        "good": [
+          "ESTJ",
+          "ESFJ",
+          "INTJ"
+        ],
+        "challenging": [
+          "ENFP",
+          "ESFP",
+          "ISFP"
+        ]
+      },
+      "percentage": {
+        "E": 22,
+        "I": 80,
+        "N": 93,
+        "S": 49,
+        "F": 49,
+        "T": 78,
+        "P": 35,
+        "J": 99
+      },
+      "type": "INTJ"
+    },
+    {
+      "mbtiType": "INTP",
+      "title": "INTP 성격 유형",
+      "description": "INTP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "INTJ",
+          "INTP"
+        ],
+        "good": [
+          "ISTJ",
+          "ESTP",
+          "ENFJ"
+        ],
+        "challenging": [
+          "ISFJ",
+          "INFJ",
+          "ISTP"
+        ]
+      },
+      "percentage": {
+        "E": 47,
+        "I": 93,
+        "N": 88,
+        "S": 46,
+        "F": 49,
+        "T": 90,
+        "P": 83,
+        "J": 33
+      },
+      "type": "INTP"
+    },
+    {
+      "mbtiType": "ENTJ",
+      "title": "ENTJ 성격 유형",
+      "description": "ENTJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "INTJ",
+          "INTP"
+        ],
+        "good": [
+          "ESFJ",
+          "ISTJ",
+          "ISFJ"
+        ],
+        "challenging": [
+          "ENTJ",
+          "ISTP",
+          "ENTP"
+        ]
+      },
+      "percentage": {
+        "E": 96,
+        "I": 48,
+        "N": 87,
+        "S": 21,
+        "F": 27,
+        "T": 97,
+        "P": 34,
+        "J": 86
+      },
+      "type": "ENTJ"
+    },
+    {
+      "mbtiType": "ENTP",
+      "title": "ENTP 성격 유형",
+      "description": "ENTP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ISTJ",
+          "ENTP"
+        ],
+        "good": [
+          "INTP",
+          "INFJ",
+          "INFP"
+        ],
+        "challenging": [
+          "ENTJ",
+          "INTJ",
+          "ISFJ"
+        ]
+      },
+      "percentage": {
+        "E": 84,
+        "I": 31,
+        "N": 87,
+        "S": 48,
+        "F": 43,
+        "T": 73,
+        "P": 80,
+        "J": 47
+      },
+      "type": "ENTP"
+    },
+    {
+      "mbtiType": "INFJ",
+      "title": "INFJ 성격 유형",
+      "description": "INFJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ISTJ",
+          "ESFP"
+        ],
+        "good": [
+          "INTJ",
+          "ESFJ",
+          "INFJ"
+        ],
+        "challenging": [
+          "ENTJ",
+          "ENFJ",
+          "INFP"
+        ]
+      },
+      "percentage": {
+        "E": 42,
+        "I": 82,
+        "N": 89,
+        "S": 39,
+        "F": 72,
+        "T": 49,
+        "P": 47,
+        "J": 71
+      },
+      "type": "INFJ"
+    },
+    {
+      "mbtiType": "INFP",
+      "title": "INFP 성격 유형",
+      "description": "INFP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "INFJ",
+          "ESFP"
+        ],
+        "good": [
+          "ISTJ",
+          "ESFJ",
+          "ENTJ"
+        ],
+        "challenging": [
+          "ENTP",
+          "ISTP",
+          "ESTJ"
+        ]
+      },
+      "percentage": {
+        "E": 38,
+        "I": 74,
+        "N": 73,
+        "S": 28,
+        "F": 92,
+        "T": 42,
+        "P": 78,
+        "J": 40
+      },
+      "type": "INFP"
+    },
+    {
+      "mbtiType": "ENFJ",
+      "title": "ENFJ 성격 유형",
+      "description": "ENFJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "INFJ",
+          "INFP"
+        ],
+        "good": [
+          "ENFJ",
+          "ISTJ",
+          "ESFP"
+        ],
+        "challenging": [
+          "ENTP",
+          "ENFP",
+          "ISTP"
+        ]
+      },
+      "percentage": {
+        "E": 76,
+        "I": 49,
+        "N": 77,
+        "S": 37,
+        "F": 90,
+        "T": 33,
+        "P": 46,
+        "J": 77
+      },
+      "type": "ENFJ"
+    },
+    {
+      "mbtiType": "ENFP",
+      "title": "ENFP 성격 유형",
+      "description": "ENFP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ISFJ",
+          "ENFJ"
+        ],
+        "good": [
+          "ENTP",
+          "ISFP",
+          "ENFP"
+        ],
+        "challenging": [
+          "INTJ",
+          "ISTJ",
+          "INTP"
+        ]
+      },
+      "percentage": {
+        "E": 87,
+        "I": 37,
+        "N": 79,
+        "S": 41,
+        "F": 80,
+        "T": 34,
+        "P": 83,
+        "J": 42
+      },
+      "type": "ENFP"
+    },
+    {
+      "mbtiType": "ISTJ",
+      "title": "ISTJ 성격 유형",
+      "description": "ISTJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ISFP",
+          "ENFJ"
+        ],
+        "good": [
+          "ESFP",
+          "INFP",
+          "INFJ"
+        ],
+        "challenging": [
+          "ENFP",
+          "ENTP",
+          "ISTJ"
+        ]
+      },
+      "percentage": {
+        "E": 46,
+        "I": 80,
+        "N": 39,
+        "S": 99,
+        "F": 35,
+        "T": 96,
+        "P": 28,
+        "J": 79
+      },
+      "type": "ISTJ"
+    },
+    {
+      "mbtiType": "ISFJ",
+      "title": "ISFJ 성격 유형",
+      "description": "ISFJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ISTJ",
+          "ESFJ"
+        ],
+        "good": [
+          "ENTJ",
+          "ISFJ",
+          "ENTP"
+        ],
+        "challenging": [
+          "ENFJ",
+          "ESFP",
+          "ENFP"
+        ]
+      },
+      "percentage": {
+        "E": 41,
+        "I": 88,
+        "N": 42,
+        "S": 84,
+        "F": 89,
+        "T": 43,
+        "P": 48,
+        "J": 74
+      },
+      "type": "ISFJ"
+    },
+    {
+      "mbtiType": "ESTJ",
+      "title": "ESTJ 성격 유형",
+      "description": "ESTJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ENTJ",
+          "INTP"
+        ],
+        "good": [
+          "ENFP",
+          "ISFP",
+          "INFP"
+        ],
+        "challenging": [
+          "ESFJ",
+          "ENFJ",
+          "INFJ"
+        ]
+      },
+      "percentage": {
+        "E": 99,
+        "I": 30,
+        "N": 30,
+        "S": 76,
+        "F": 21,
+        "T": 82,
+        "P": 32,
+        "J": 96
+      },
+      "type": "ESTJ"
+    },
+    {
+      "mbtiType": "ESFJ",
+      "title": "ESFJ 성격 유형",
+      "description": "ESFJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ENTJ",
+          "INFP"
+        ],
+        "good": [
+          "ESFP",
+          "ISTJ",
+          "ISTP"
+        ],
+        "challenging": [
+          "ISFJ",
+          "ENTP",
+          "ESFJ"
+        ]
+      },
+      "percentage": {
+        "E": 76,
+        "I": 22,
+        "N": 22,
+        "S": 82,
+        "F": 74,
+        "T": 25,
+        "P": 40,
+        "J": 74
+      },
+      "type": "ESFJ"
+    },
+    {
+      "mbtiType": "ISTP",
+      "title": "ISTP 성격 유형",
+      "description": "ISTP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ESFP",
+          "ISTP"
+        ],
+        "good": [
+          "INTP",
+          "INTJ",
+          "ENFP"
+        ],
+        "challenging": [
+          "INFJ",
+          "ENTJ",
+          "ISFP"
+        ]
+      },
+      "percentage": {
+        "E": 48,
+        "I": 96,
+        "N": 36,
+        "S": 73,
+        "F": 40,
+        "T": 76,
+        "P": 96,
+        "J": 30
+      },
+      "type": "ISTP"
+    },
+    {
+      "mbtiType": "ISFP",
+      "title": "ISFP 성격 유형",
+      "description": "ISFP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ENTJ",
+          "ESFJ"
+        ],
+        "good": [
+          "ISTP",
+          "ENTP",
+          "INTP"
+        ],
+        "challenging": [
+          "ISFP",
+          "ESTP",
+          "INTJ"
+        ]
+      },
+      "percentage": {
+        "E": 28,
+        "I": 91,
+        "N": 36,
+        "S": 96,
+        "F": 77,
+        "T": 20,
+        "P": 88,
+        "J": 33
+      },
+      "type": "ISFP"
+    },
+    {
+      "mbtiType": "ESTP",
+      "title": "ESTP 성격 유형",
+      "description": "ESTP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "INFJ",
+          "ENFP"
+        ],
+        "good": [
+          "INTJ",
+          "INFP",
+          "ISTP"
+        ],
+        "challenging": [
+          "ENFJ",
+          "ESTJ",
+          "INTP"
+        ]
+      },
+      "percentage": {
+        "E": 87,
+        "I": 26,
+        "N": 25,
+        "S": 80,
+        "F": 29,
+        "T": 72,
+        "P": 79,
+        "J": 38
+      },
+      "type": "ESTP"
+    },
+    {
+      "mbtiType": "ESFP",
+      "title": "ESFP 성격 유형",
+      "description": "ESFP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ENTP",
+          "ISFP"
+        ],
+        "good": [
+          "INFP",
+          "ISFJ",
+          "ENFP"
+        ],
+        "challenging": [
+          "ISTJ",
+          "INTJ",
+          "ENFJ"
+        ]
+      },
+      "percentage": {
+        "E": 81,
+        "I": 30,
+        "N": 36,
+        "S": 75,
+        "F": 82,
+        "T": 40,
+        "P": 96,
+        "J": 20
+      },
+      "type": "ESFP"
+    }
+  ],
+  "createdAt": "2025-08-12T07:17:40.023Z",
+  "updatedAt": "2025-08-12T07:17:40.023Z",
+  "tags": [
+    "음식",
+    "MBTI",
+    "성격테스트"
+  ],
+  "estimatedTime": 5,
+  "difficulty": "medium"
+}

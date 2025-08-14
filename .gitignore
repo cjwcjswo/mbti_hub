@@ -15,75 +15,94 @@ build/
 .env.test.local
 .env.production.local
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# Logs
-logs
-*.log
+# Temporary files
+*.tmp
+*.temp
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
 
-# Coverage directory used by tools like istanbul
-coverage/
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# nyc test coverage
-.nyc_output
+# pyenv
+.python-version
 
-# Dependency directories
-jspm_packages/
+# pipenv
+Pipfile.lock
 
-# Optional npm cache directory
-.npm
+# PEP 582
+__pypackages__/
 
-# Optional REPL history
-.node_repl_history
+# Celery
+celerybeat-schedule
+celerybeat.pid
 
-# Output of 'npm pack'
-*.tgz
+# SageMath parsed files
+*.sage.py
 
-# Yarn Integrity file
-.yarn-integrity
+# Spyder project settings
+.spyderproject
+.spyproject
 
-# parcel-bundler cache (https://parceljs.org/)
-.cache
-.parcel-cache
+# Rope project settings
+.ropeproject
 
-# next.js build output
-.next
+# mkdocs documentation
+/site
 
-# nuxt.js build output
-.nuxt
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
-# vuepress build output
-.vuepress/dist
+# Pyre type checker
+.pyre/
 
-# Serverless directories
-.serverless
+# Railway
+.railway/
 
-# FuseBox cache
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
-
-# TernJS port file
-.tern-port
-
-# Generated test data
-data/tests/*.json
-src/data/tests/*.json
-src/data/testsList.json
-src/data/testIndex.json
-src/data/statistics.json
+# Vercel
+.vercel/

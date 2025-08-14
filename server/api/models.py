@@ -1,0 +1,130 @@
+from django.db import models
+from django.core.validators import MinValueValidator, MaxValueValidator
+
+class Category(models.Model):
+    """MBTI 테스트 카테고리"""
+    name = models.CharField(max_length=50, unique=True, verbose_name="카테고리명")
+    emoji = models.CharField(max_length=10, verbose_name="이모지")
+    description = models.TextField(verbose_name="설명")
+    color = models.CharField(max_length=50, verbose_name="색상 클래스")
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="생성일")
+    updated_at = models.DateTimeField(auto_now=True, verbose_name="수정일")
+
+    class Meta:
+        verbose_name = "카테고리"
+        verbose_name_plural = "카테고리들"
+        ordering = ['name']
+
+    def __str__(self):
+        return self.name
+
+class Test(models.Model):
+    """MBTI 테스트"""
+    DIFFICULTY_CHOICES = [
+        ('easy', '쉬움'),
+        ('medium', '보통'),
+        ('hard', '어려움'),
+    ]
+
+    title = models.CharField(max_length=200, unique=True, verbose_name="테스트 제목")
+    description = models.TextField(verbose_name="테스트 설명")
+    category = models.ForeignKey(
+        Category, 
+        on_delete=models.CASCADE, 
+        related_name='tests',
+        verbose_name="카테고리"
+    )
+    estimated_time = models.PositiveIntegerField(
+        validators=[MinValueValidator(1), MaxValueValidator(60)],
+        verbose_name="예상 소요시간(분)"
+    )
+    difficulty = models.CharField(
+        max_length=10, 
+        choices=DIFFICULTY_CHOICES, 
+        default='medium',
+        verbose_name="난이도"
+    )
+    thumbnail = models.CharField(max_length=10, blank=True, verbose_name="썸네일")
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="생성일")
+    updated_at = models.DateTimeField(auto_now=True, verbose_name="수정일")
+
+    class Meta:
+        verbose_name = "테스트"
+        verbose_name_plural = "테스트들"
+        ordering = ['-created_at']
+
+    def __str__(self):
+        return self.title
+
+class Question(models.Model):
+    """테스트 질문"""
+    test = models.ForeignKey(
+        Test, 
+        on_delete=models.CASCADE, 
+        related_name='questions',
+        verbose_name="테스트"
+    )
+    text = models.TextField(verbose_name="질문 내용")
+    order = models.PositiveIntegerField(verbose_name="순서")
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="생성일")
+    updated_at = models.DateTimeField(auto_now=True, verbose_name="수정일")
+
+    class Meta:
+        verbose_name = "질문"
+        verbose_name_plural = "질문들"
+        ordering = ['test', 'order']
+        unique_together = ['test', 'order']
+
+    def __str__(self):
+        return f"{self.test.title} - 질문 {self.order}"
+
+class QuestionOption(models.Model):
+    """질문 옵션"""
+    question = models.ForeignKey(
+        Question, 
+        on_delete=models.CASCADE, 
+        related_name='options',
+        verbose_name="질문"
+    )
+    text = models.TextField(verbose_name="옵션 내용")
+    order = models.PositiveIntegerField(verbose_name="순서")
+    scores = models.JSONField(verbose_name="MBTI 점수")  # {"E": 2, "I": 0} 형태
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="생성일")
+    updated_at = models.DateTimeField(auto_now=True, verbose_name="수정일")
+
+    class Meta:
+        verbose_name = "질문 옵션"
+        verbose_name_plural = "질문 옵션들"
+        ordering = ['question', 'order']
+        unique_together = ['question', 'order']
+
+    def __str__(self):
+        return f"{self.question} - 옵션 {self.order}"
+
+class TestResult(models.Model):
+    """테스트 결과"""
+    test = models.ForeignKey(
+        Test, 
+        on_delete=models.CASCADE, 
+        related_name='results',
+        verbose_name="테스트"
+    )
+    mbti_type = models.CharField(max_length=4, verbose_name="MBTI 유형")
+    title = models.CharField(max_length=200, verbose_name="결과 제목")
+    description = models.TextField(verbose_name="결과 설명")
+    characteristics = models.JSONField(verbose_name="특징")  # ["특징1", "특징2"] 형태
+    strengths = models.JSONField(verbose_name="강점")  # ["강점1", "강점2"] 형태
+    weaknesses = models.JSONField(verbose_name="약점")  # ["약점1", "약점2"] 형태
+    compatibility = models.JSONField(verbose_name="궁합")  # {"best": [], "good": [], "challenging": []} 형태
+    percentage = models.JSONField(verbose_name="퍼센테이지")  # {"E": 67, "I": 33, ...} 형태
+    answers = models.JSONField(verbose_name="답변")  # [{"questionId": 1, "selectedOptionId": "1"}] 형태
+    time_spent = models.PositiveIntegerField(verbose_name="소요시간(초)")
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="생성일")
+
+    class Meta:
+        verbose_name = "테스트 결과"
+        verbose_name_plural = "테스트 결과들"
+        ordering = ['-created_at']
+
+    def __str__(self):
+        return f"{self.test.title} - {self.mbti_type}"

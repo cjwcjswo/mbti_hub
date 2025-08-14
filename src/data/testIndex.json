@@ -1,0 +1,122 @@
+{
+  "test_1754983060029": {
+    "title": "독서 MBTI 테스트",
+    "description": "독서에 대한 당신의 성격 유형을 알아보세요!",
+    "tags": [
+      "독서",
+      "MBTI",
+      "성격테스트"
+    ],
+    "estimatedTime": 5,
+    "difficulty": "medium",
+    "questionCount": 14
+  },
+  "test_1754983060021": {
+    "title": "여행 MBTI 테스트",
+    "description": "여행에 대한 당신의 성격 유형을 알아보세요!",
+    "tags": [
+      "여행",
+      "MBTI",
+      "성격테스트"
+    ],
+    "estimatedTime": 5,
+    "difficulty": "medium",
+    "questionCount": 11
+  },
+  "test_1754983060011": {
+    "title": "연애 MBTI 테스트",
+    "description": "연애에 대한 당신의 성격 유형을 알아보세요!",
+    "tags": [
+      "연애",
+      "MBTI",
+      "성격테스트"
+    ],
+    "estimatedTime": 5,
+    "difficulty": "medium",
+    "questionCount": 15
+  },
+  "test_1754983060028": {
+    "title": "운동 MBTI 테스트",
+    "description": "운동에 대한 당신의 성격 유형을 알아보세요!",
+    "tags": [
+      "운동",
+      "MBTI",
+      "성격테스트"
+    ],
+    "estimatedTime": 5,
+    "difficulty": "medium",
+    "questionCount": 15
+  },
+  "test_1754983060023": {
+    "title": "음식 MBTI 테스트",
+    "description": "음식에 대한 당신의 성격 유형을 알아보세요!",
+    "tags": [
+      "음식",
+      "MBTI",
+      "성격테스트"
+    ],
+    "estimatedTime": 5,
+    "difficulty": "medium",
+    "questionCount": 14
+  },
+  "test_1754983060031": {
+    "title": "음악 MBTI 테스트",
+    "description": "음악에 대한 당신의 성격 유형을 알아보세요!",
+    "tags": [
+      "음악",
+      "MBTI",
+      "성격테스트"
+    ],
+    "estimatedTime": 5,
+    "difficulty": "medium",
+    "questionCount": 10
+  },
+  "test_1754983060016": {
+    "title": "직장생활 MBTI 테스트",
+    "description": "직장생활에 대한 당신의 성격 유형을 알아보세요!",
+    "tags": [
+      "직장생활",
+      "MBTI",
+      "성격테스트"
+    ],
+    "estimatedTime": 5,
+    "difficulty": "medium",
+    "questionCount": 11
+  },
+  "test_1754983060019": {
+    "title": "취미활동 MBTI 테스트",
+    "description": "취미활동에 대한 당신의 성격 유형을 알아보세요!",
+    "tags": [
+      "취미활동",
+      "MBTI",
+      "성격테스트"
+    ],
+    "estimatedTime": 5,
+    "difficulty": "medium",
+    "questionCount": 14
+  },
+  "test_1754983060018": {
+    "title": "친구관계 MBTI 테스트",
+    "description": "친구관계에 대한 당신의 성격 유형을 알아보세요!",
+    "tags": [
+      "친구관계",
+      "MBTI",
+      "성격테스트"
+    ],
+    "estimatedTime": 5,
+    "difficulty": "medium",
+    "questionCount": 12
+  },
+  "test_1754983060026": {
+    "title": "패션 MBTI 테스트",
+    "description": "패션에 대한 당신의 성격 유형을 알아보세요!",
+    "tags": [
+      "패션",
+      "MBTI",
+      "성격테스트"
+    ],
+    "estimatedTime": 5,
+    "difficulty": "medium",
+    "questionCount": 15
+  }
+}

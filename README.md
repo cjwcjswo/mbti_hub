@@ -1,189 +1,235 @@
-# MBTI Hub
+# 🧠 MBTI Hub
 
-다양한 MBTI 성격 유형 테스트들을 제공하는 플랫폼 웹 서비스입니다.
+다양한 MBTI 테스트로 당신의 성격을 더 깊이 알아보세요!
 
-## 🚀 주요 기능
+## 🚀 배포된 서비스
 
-- **다양한 MBTI 테스트**: 연애, 직장생활, 친구관계 등 다양한 주제의 MBTI 테스트
-- **AI 기반 테스트 생성**: 최신 트렌드에 맞는 MBTI 테스트 자동 생성
-- **자동화된 웹페이지 생성**: 생성된 테스트를 자동으로 웹페이지로 변환
-- **반응형 디자인**: 모바일, 태블릿, 데스크톱 모든 디바이스 지원
-- **광고 수익화**: Google AdSense, 쿠팡 파트너스 연동 지원
+- **프론트엔드**: [Vercel](https://vercel.com)에서 호스팅
+- **백엔드 API**: [Railway](https://railway.app)에서 호스팅
+- **데이터베이스**: PostgreSQL (Railway 제공)
 
 ## 🛠️ 기술 스택
 
-- **Frontend**: React 18, TypeScript, Vite
-- **Styling**: Styled Components, Framer Motion
-- **Routing**: React Router DOM
-- **State Management**: React Query
-- **SEO**: React Helmet Async
+### 프론트엔드
+- **React 18** + **TypeScript**
+- **Vite** (빌드 도구)
+- **Tailwind CSS** (스타일링)
+- **Framer Motion** (애니메이션)
+- **React Router** (라우팅)
+
+### 백엔드
+- **Django 5.0** + **Python 3.12**
+- **Django REST Framework** (API)
+- **PostgreSQL** (데이터베이스)
+- **Django CORS Headers** (CORS 처리)
 
 ## 📁 프로젝트 구조
 
 ```
 mbti-hub/
-├── src/
-│   ├── components/          # 재사용 가능한 컴포넌트
-│   ├── pages/              # 페이지 컴포넌트
-│   ├── hooks/              # 커스텀 훅
-│   ├── utils/              # 유틸리티 함수
-│   ├── types/              # TypeScript 타입 정의
-│   ├── assets/             # 이미지, 아이콘 등 정적 파일
-│   ├── data/               # 테스트 데이터
-│   └── styles/             # 전역 스타일
-├── scripts/                # AI 테스트 생성 및 파싱 스크립트
-├── data/                   # 원본 테스트 데이터
-└── public/                 # 정적 파일
+├── src/                    # 프론트엔드 소스
+│   ├── components/         # React 컴포넌트
+│   ├── pages/             # 페이지 컴포넌트
+│   ├── types/             # TypeScript 타입 정의
+│   ├── config/            # 설정 파일
+│   └── styles/            # 스타일 파일
+├── server/                # 백엔드 소스
+│   ├── api/               # Django 앱
+│   ├── mbti_hub/          # Django 프로젝트 설정
+│   └── requirements.txt   # Python 의존성
+├── vercel.json           # Vercel 배포 설정
+├── Procfile              # Railway 배포 설정
+└── DEPLOYMENT_GUIDE.md   # 배포 가이드
 ```
 
-## 🚀 시작하기
+## 🚀 로컬 개발 환경 설정
 
-### 1. 의존성 설치
+### 프론트엔드 실행
 
 ```bash
+# 의존성 설치
 npm install
-```
 
-### 2. 개발 서버 실행
-
-```bash
+# 개발 서버 실행
 npm run dev
 ```
 
-### 3. MBTI 테스트 생성
+### 백엔드 실행
 
 ```bash
-# AI를 통해 새로운 MBTI 테스트 생성
-npm run generate-test
+# 서버 디렉토리로 이동
+cd server
 
-# 생성된 테스트를 웹페이지용으로 파싱
-npm run parse-tests
+# 가상환경 생성 및 활성화
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+# 또는
+venv\Scripts\activate     # Windows
+
+# 의존성 설치
+pip install -r requirements.txt
+
+# 환경 변수 설정
+cp .env.example .env
+# .env 파일에서 실제 값으로 수정
+
+# 데이터베이스 마이그레이션
+python manage.py migrate
+
+# 시드 데이터 생성
+python manage.py seed_data
+
+# 개발 서버 실행
+python manage.py runserver
 ```
 
-### 4. 빌드
+## 🌐 API 엔드포인트
 
-```bash
-npm run build
-```
+### 홈페이지 데이터
+- `GET /api/home/` - 홈페이지에 필요한 데이터
 
-## 📝 MBTI 테스트 생성 프로세스
+### 테스트 관련
+- `GET /api/tests/` - 테스트 목록
+- `GET /api/tests/{id}/` - 특정 테스트 상세 정보
+- `GET /api/tests/popular/` - 인기 테스트 목록
 
-1. **AI 테스트 생성**: `scripts/generateTest.js`를 통해 다양한 주제의 MBTI 테스트를 자동 생성
-2. **데이터 파싱**: `scripts/parseTests.js`를 통해 생성된 테스트를 웹페이지용 데이터로 변환
-3. **자동 웹페이지 생성**: 파싱된 데이터를 기반으로 테스트 페이지 자동 생성
+### 카테고리 관련
+- `GET /api/categories/` - 카테고리 목록
+- `GET /api/categories/{id}/tests/` - 카테고리별 테스트
 
-## 🎨 테스트 템플릿 구조
+### 테스트 결과
+- `POST /api/test-results/` - 테스트 결과 저장
+- `GET /api/test-results/` - 테스트 결과 목록
 
-```json
-{
-  "id": "test_id",
-  "title": "테스트 제목",
-  "description": "테스트 설명",
-  "questions": [
-    {
-      "id": 1,
-      "text": "질문 내용",
-      "options": [
-        {
-          "id": "A",
-          "text": "선택지 내용",
-          "score": {
-            "INTJ": 3,
-            "INTP": 2,
-            // ... 다른 MBTI 유형별 점수
-          }
-        }
-      ]
-    }
-  ],
-  "resultTypes": [
-    {
-      "type": "INTJ",
-      "title": "INTJ 성격 유형",
-      "description": "유형 설명",
-      "characteristics": ["특성1", "특성2"],
-      "strengths": ["강점1", "강점2"],
-      "weaknesses": ["약점1", "약점2"],
-      "careerSuggestions": ["직업1", "직업2"],
-      "compatibility": ["호환유형1", "호환유형2"]
-    }
-  ]
-}
-```
+## 📊 데이터 모델
 
-## 📊 광고 수익화
+### Category (카테고리)
+- `name`: 카테고리명
+- `emoji`: 이모지
+- `description`: 설명
+- `color`: 색상 클래스
 
-### Google AdSense 설정
+### Test (테스트)
+- `title`: 테스트 제목
+- `description`: 테스트 설명
+- `category`: 카테고리 (ForeignKey)
+- `estimated_time`: 예상 소요시간
+- `difficulty`: 난이도 (easy/medium/hard)
+- `thumbnail`: 썸네일
 
-1. `.env` 파일에 AdSense 설정 추가:
-```env
-REACT_APP_ADS_ENABLED=true
-REACT_APP_ADSENSE_CLIENT_ID=your_client_id
-```
+### Question (질문)
+- `test`: 테스트 (ForeignKey)
+- `text`: 질문 내용
+- `order`: 순서
 
-2. 광고 슬롯 설정:
-```javascript
-const adSlots = {
-  header: '1234567890',
-  footer: '0987654321',
-  content: '1122334455',
-  sidebar: '5566778899'
-};
-```
+### QuestionOption (질문 옵션)
+- `question`: 질문 (ForeignKey)
+- `text`: 옵션 내용
+- `order`: 순서
+- `scores`: MBTI 점수 (JSON)
 
-### 쿠팡 파트너스 설정
+### TestResult (테스트 결과)
+- `test`: 테스트 (ForeignKey)
+- `mbti_type`: MBTI 유형
+- `title`: 결과 제목
+- `description`: 결과 설명
+- `characteristics`: 특징
+- `strengths`: 강점
+- `weaknesses`: 약점
+- `compatibility`: 호환성
+- `percentage`: 각 지표별 퍼센트
+- `answers`: 답변 데이터 (JSON)
+- `time_spent`: 소요 시간
 
-```env
-REACT_APP_COUPANG_ACCESS_KEY=your_access_key
-REACT_APP_COUPANG_SECRET_KEY=your_secret_key
-REACT_APP_COUPANG_TAG_ID=your_tag_id
-```
+## 🎯 주요 기능
 
-## 🔧 환경 변수
+### 1. 홈페이지
+- 인기 테스트 표시
+- 카테고리별 테스트 분류
+- 반응형 디자인
 
-```env
-# 개발 환경
-NODE_ENV=development
+### 2. 테스트 목록
+- 카테고리별 필터링
+- 검색 기능
+- 정렬 기능
 
-# 광고 설정
-REACT_APP_ADS_ENABLED=false
-REACT_APP_ADSENSE_CLIENT_ID=
-REACT_APP_COUPANG_ACCESS_KEY=
-REACT_APP_COUPANG_SECRET_KEY=
-REACT_APP_COUPANG_TAG_ID=
+### 3. 테스트 진행
+- 단계별 질문 진행
+- 답변 저장
+- 진행률 표시
 
-# API 설정
-REACT_APP_API_URL=http://localhost:3000/api
-```
+### 4. 결과 페이지
+- MBTI 유형 표시
+- 상세한 성격 분석
+- 호환성 정보
+- 공유 기능
 
-## 📱 반응형 디자인
+## 🔧 개발 가이드
 
-- **모바일**: 320px ~ 768px
-- **태블릿**: 768px ~ 1024px
-- **데스크톱**: 1024px 이상
+### 새로운 테스트 추가
+
+1. **백엔드에서 데이터 생성**
+   ```bash
+   python manage.py shell
+   ```
+   
+   ```python
+   from api.models import Category, Test, Question, QuestionOption
+   
+   # 카테고리 생성
+   category = Category.objects.create(
+       name="새 카테고리",
+       emoji="🎯",
+       description="새로운 카테고리입니다"
+   )
+   
+   # 테스트 생성
+   test = Test.objects.create(
+       title="새 테스트",
+       description="새로운 테스트입니다",
+       category=category,
+       estimated_time=10,
+       difficulty="medium"
+   )
+   
+   # 질문 및 옵션 추가
+   question = Question.objects.create(
+       test=test,
+       text="새로운 질문입니다",
+       order=1
+   )
+   
+   QuestionOption.objects.create(
+       question=question,
+       text="옵션 1",
+       order=1,
+       scores={"E": 2, "I": 0}
+   )
+   ```
+
+2. **프론트엔드에서 표시**
+   - 자동으로 API에서 데이터를 가져와서 표시
+
+### 스타일 수정
+
+- Tailwind CSS 클래스 사용
+- `src/styles/global.css`에서 커스텀 스타일 추가
+
+### 애니메이션 추가
+
+- Framer Motion 사용
+- `motion.div` 컴포넌트로 애니메이션 적용
 
 ## 🚀 배포
 
-### Vercel 배포
+자세한 배포 가이드는 [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)를 참조하세요.
 
-1. Vercel CLI 설치:
-```bash
-npm i -g vercel
-```
+### 빠른 배포
 
-2. 배포:
-```bash
-vercel
-```
-
-### Netlify 배포
-
-1. 빌드 파일 생성:
-```bash
-npm run build
-```
-
-2. `dist` 폴더를 Netlify에 업로드
+1. **GitHub에 코드 업로드**
+2. **Railway에서 백엔드 배포**
+3. **Vercel에서 프론트엔드 배포**
+4. **환경 변수 설정**
 
 ## 🤝 기여하기
 
@@ -193,11 +239,14 @@ npm run build
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 라이선스
+## 📝 라이선스
 
 이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
 
-## 📞 연락처
+## 📞 문의
 
-- 이메일: contact@mbtihub.com
-- 프로젝트 링크: [https://github.com/your-username/mbti-hub](https://github.com/your-username/mbti-hub)
+프로젝트에 대한 문의사항이 있으시면 이슈를 생성해주세요.
+
+---
+
+**MBTI Hub** - 당신의 성격을 더 깊이 알아보세요! 🧠✨

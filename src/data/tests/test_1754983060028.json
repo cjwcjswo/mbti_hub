@@ -1,0 +1,2622 @@
+{
+  "id": "test_1754983060028",
+  "title": "운동 MBTI 테스트",
+  "description": "운동에 대한 당신의 성격 유형을 알아보세요!",
+  "category": "운동",
+  "questions": [
+    {
+      "id": 1,
+      "text": "운동와 관련된 상황에서 당신의 선택은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 4,
+            "ENTJ": 3,
+            "ENTP": 4,
+            "INFJ": 1,
+            "INFP": 1,
+            "ENFJ": 2,
+            "ENFP": 2,
+            "ISTJ": 5,
+            "ISFJ": 5,
+            "ESTJ": 5,
+            "ESFJ": 2,
+            "ISTP": 1,
+            "ISFP": 1,
+            "ESTP": 4,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 4,
+            "ENTJ": 3,
+            "ENTP": 4,
+            "INFJ": 3,
+            "INFP": 3,
+            "ENFJ": 3,
+            "ENFP": 1,
+            "ISTJ": 5,
+            "ISFJ": 3,
+            "ESTJ": 3,
+            "ESFJ": 5,
+            "ISTP": 3,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 2,
+            "ENTJ": 5,
+            "ENTP": 3,
+            "INFJ": 3,
+            "INFP": 4,
+            "ENFJ": 2,
+            "ENFP": 5,
+            "ISTJ": 2,
+            "ISFJ": 2,
+            "ESTJ": 3,
+            "ESFJ": 2,
+            "ISTP": 1,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 2,
+            "ENTJ": 5,
+            "ENTP": 5,
+            "INFJ": 5,
+            "INFP": 5,
+            "ENFJ": 5,
+            "ENFP": 4,
+            "ISTJ": 4,
+            "ISFJ": 3,
+            "ESTJ": 4,
+            "ESFJ": 1,
+            "ISTP": 2,
+            "ISFP": 2,
+            "ESTP": 2,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 4,
+            "ENTJ": 4,
+            "ENTP": 3,
+            "INFJ": 5,
+            "INFP": 4,
+            "ENFJ": 2,
+            "ENFP": 1,
+            "ISTJ": 5,
+            "ISFJ": 4,
+            "ESTJ": 2,
+            "ESFJ": 2,
+            "ISTP": 2,
+            "ISFP": 3,
+            "ESTP": 1,
+            "ESFP": 3
+          }
+        }
+      ],
+      "category": "취미"
+    },
+    {
+      "id": 2,
+      "text": "운동에 대해 어떻게 생각하시나요?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 5,
+            "ENTJ": 5,
+            "ENTP": 5,
+            "INFJ": 4,
+            "INFP": 3,
+            "ENFJ": 2,
+            "ENFP": 2,
+            "ISTJ": 1,
+            "ISFJ": 3,
+            "ESTJ": 5,
+            "ESFJ": 1,
+            "ISTP": 2,
+            "ISFP": 4,
+            "ESTP": 3,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 1,
+            "ENTJ": 3,
+            "ENTP": 5,
+            "INFJ": 2,
+            "INFP": 4,
+            "ENFJ": 2,
+            "ENFP": 4,
+            "ISTJ": 3,
+            "ISFJ": 2,
+            "ESTJ": 3,
+            "ESFJ": 4,
+            "ISTP": 3,
+            "ISFP": 5,
+            "ESTP": 2,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 4,
+            "ENTJ": 3,
+            "ENTP": 4,
+            "INFJ": 2,
+            "INFP": 4,
+            "ENFJ": 2,
+            "ENFP": 1,
+            "ISTJ": 2,
+            "ISFJ": 3,
+            "ESTJ": 3,
+            "ESFJ": 2,
+            "ISTP": 2,
+            "ISFP": 3,
+            "ESTP": 1,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 5,
+            "ENTJ": 3,
+            "ENTP": 4,
+            "INFJ": 1,
+            "INFP": 1,
+            "ENFJ": 3,
+            "ENFP": 4,
+            "ISTJ": 5,
+            "ISFJ": 3,
+            "ESTJ": 4,
+            "ESFJ": 4,
+            "ISTP": 4,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 2,
+            "ENTJ": 5,
+            "ENTP": 4,
+            "INFJ": 3,
+            "INFP": 3,
+            "ENFJ": 2,
+            "ENFP": 5,
+            "ISTJ": 1,
+            "ISFJ": 4,
+            "ESTJ": 3,
+            "ESFJ": 4,
+            "ISTP": 2,
+            "ISFP": 2,
+            "ESTP": 5,
+            "ESFP": 1
+          }
+        }
+      ],
+      "category": "취미"
+    },
+    {
+      "id": 3,
+      "text": "운동 상황에서 당신은 어떻게 행동하시나요?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 2,
+            "ENTJ": 3,
+            "ENTP": 3,
+            "INFJ": 1,
+            "INFP": 4,
+            "ENFJ": 2,
+            "ENFP": 5,
+            "ISTJ": 2,
+            "ISFJ": 3,
+            "ESTJ": 5,
+            "ESFJ": 3,
+            "ISTP": 3,
+            "ISFP": 2,
+            "ESTP": 5,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 1,
+            "ENTJ": 3,
+            "ENTP": 3,
+            "INFJ": 3,
+            "INFP": 1,
+            "ENFJ": 2,
+            "ENFP": 1,
+            "ISTJ": 1,
+            "ISFJ": 2,
+            "ESTJ": 2,
+            "ESFJ": 1,
+            "ISTP": 4,
+            "ISFP": 2,
+            "ESTP": 4,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 1,
+            "ENTJ": 3,
+            "ENTP": 1,
+            "INFJ": 1,
+            "INFP": 3,
+            "ENFJ": 2,
+            "ENFP": 4,
+            "ISTJ": 5,
+            "ISFJ": 2,
+            "ESTJ": 5,
+            "ESFJ": 3,
+            "ISTP": 2,
+            "ISFP": 5,
+            "ESTP": 2,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 4,
+            "ENTJ": 2,
+            "ENTP": 4,
+            "INFJ": 4,
+            "INFP": 4,
+            "ENFJ": 1,
+            "ENFP": 4,
+            "ISTJ": 3,
+            "ISFJ": 2,
+            "ESTJ": 2,
+            "ESFJ": 5,
+            "ISTP": 5,
+            "ISFP": 3,
+            "ESTP": 1,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 5,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 4,
+            "INFP": 3,
+            "ENFJ": 4,
+            "ENFP": 4,
+            "ISTJ": 2,
+            "ISFJ": 3,
+            "ESTJ": 1,
+            "ESFJ": 1,
+            "ISTP": 1,
+            "ISFP": 3,
+            "ESTP": 5,
+            "ESFP": 5
+          }
+        }
+      ],
+      "category": "취미"
+    },
+    {
+      "id": 4,
+      "text": "운동와 관련된 상황에서 당신의 선택은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 2,
+            "ENTJ": 2,
+            "ENTP": 1,
+            "INFJ": 4,
+            "INFP": 2,
+            "ENFJ": 1,
+            "ENFP": 1,
+            "ISTJ": 3,
+            "ISFJ": 5,
+            "ESTJ": 3,
+            "ESFJ": 1,
+            "ISTP": 4,
+            "ISFP": 3,
+            "ESTP": 3,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 3,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 4,
+            "INFP": 4,
+            "ENFJ": 4,
+            "ENFP": 5,
+            "ISTJ": 5,
+            "ISFJ": 5,
+            "ESTJ": 1,
+            "ESFJ": 5,
+            "ISTP": 1,
+            "ISFP": 1,
+            "ESTP": 3,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 1,
+            "ENTJ": 1,
+            "ENTP": 4,
+            "INFJ": 3,
+            "INFP": 3,
+            "ENFJ": 3,
+            "ENFP": 1,
+            "ISTJ": 3,
+            "ISFJ": 4,
+            "ESTJ": 2,
+            "ESFJ": 1,
+            "ISTP": 4,
+            "ISFP": 2,
+            "ESTP": 5,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 2,
+            "ENTJ": 4,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 3,
+            "ENFJ": 2,
+            "ENFP": 2,
+            "ISTJ": 4,
+            "ISFJ": 1,
+            "ESTJ": 5,
+            "ESFJ": 4,
+            "ISTP": 5,
+            "ISFP": 2,
+            "ESTP": 1,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 3,
+            "ENTJ": 4,
+            "ENTP": 5,
+            "INFJ": 2,
+            "INFP": 4,
+            "ENFJ": 4,
+            "ENFP": 5,
+            "ISTJ": 1,
+            "ISFJ": 1,
+            "ESTJ": 1,
+            "ESFJ": 5,
+            "ISTP": 3,
+            "ISFP": 2,
+            "ESTP": 2,
+            "ESFP": 5
+          }
+        }
+      ],
+      "category": "가치관"
+    },
+    {
+      "id": 5,
+      "text": "운동에 직면했을 때 당신은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 1,
+            "ENTJ": 5,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 5,
+            "ENFJ": 1,
+            "ENFP": 1,
+            "ISTJ": 5,
+            "ISFJ": 2,
+            "ESTJ": 2,
+            "ESFJ": 2,
+            "ISTP": 2,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 3,
+            "ENTJ": 1,
+            "ENTP": 2,
+            "INFJ": 1,
+            "INFP": 1,
+            "ENFJ": 3,
+            "ENFP": 2,
+            "ISTJ": 3,
+            "ISFJ": 5,
+            "ESTJ": 1,
+            "ESFJ": 2,
+            "ISTP": 2,
+            "ISFP": 4,
+            "ESTP": 4,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 5,
+            "ENTJ": 4,
+            "ENTP": 1,
+            "INFJ": 2,
+            "INFP": 1,
+            "ENFJ": 1,
+            "ENFP": 4,
+            "ISTJ": 1,
+            "ISFJ": 1,
+            "ESTJ": 4,
+            "ESFJ": 5,
+            "ISTP": 2,
+            "ISFP": 2,
+            "ESTP": 5,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 5,
+            "ENTJ": 5,
+            "ENTP": 3,
+            "INFJ": 4,
+            "INFP": 3,
+            "ENFJ": 1,
+            "ENFP": 5,
+            "ISTJ": 2,
+            "ISFJ": 1,
+            "ESTJ": 5,
+            "ESFJ": 4,
+            "ISTP": 1,
+            "ISFP": 2,
+            "ESTP": 5,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 3,
+            "INFJ": 3,
+            "INFP": 3,
+            "ENFJ": 2,
+            "ENFP": 1,
+            "ISTJ": 5,
+            "ISFJ": 1,
+            "ESTJ": 3,
+            "ESFJ": 4,
+            "ISTP": 2,
+            "ISFP": 1,
+            "ESTP": 2,
+            "ESFP": 4
+          }
+        }
+      ],
+      "category": "라이프스타일"
+    },
+    {
+      "id": 6,
+      "text": "운동에 직면했을 때 당신은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 5,
+            "ENTJ": 5,
+            "ENTP": 1,
+            "INFJ": 3,
+            "INFP": 1,
+            "ENFJ": 2,
+            "ENFP": 4,
+            "ISTJ": 5,
+            "ISFJ": 1,
+            "ESTJ": 2,
+            "ESFJ": 4,
+            "ISTP": 5,
+            "ISFP": 4,
+            "ESTP": 2,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 5,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 4,
+            "INFP": 3,
+            "ENFJ": 3,
+            "ENFP": 1,
+            "ISTJ": 5,
+            "ISFJ": 1,
+            "ESTJ": 1,
+            "ESFJ": 2,
+            "ISTP": 5,
+            "ISFP": 2,
+            "ESTP": 5,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 5,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 1,
+            "INFP": 4,
+            "ENFJ": 1,
+            "ENFP": 2,
+            "ISTJ": 1,
+            "ISFJ": 4,
+            "ESTJ": 3,
+            "ESFJ": 3,
+            "ISTP": 5,
+            "ISFP": 4,
+            "ESTP": 4,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 1,
+            "ENTJ": 5,
+            "ENTP": 2,
+            "INFJ": 2,
+            "INFP": 1,
+            "ENFJ": 1,
+            "ENFP": 3,
+            "ISTJ": 3,
+            "ISFJ": 4,
+            "ESTJ": 1,
+            "ESFJ": 2,
+            "ISTP": 2,
+            "ISFP": 2,
+            "ESTP": 2,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 4,
+            "ENTJ": 3,
+            "ENTP": 5,
+            "INFJ": 3,
+            "INFP": 5,
+            "ENFJ": 2,
+            "ENFP": 5,
+            "ISTJ": 1,
+            "ISFJ": 2,
+            "ESTJ": 2,
+            "ESFJ": 1,
+            "ISTP": 3,
+            "ISFP": 1,
+            "ESTP": 3,
+            "ESFP": 5
+          }
+        }
+      ],
+      "category": "라이프스타일"
+    },
+    {
+      "id": 7,
+      "text": "운동에 직면했을 때 당신은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 3,
+            "ENTJ": 4,
+            "ENTP": 3,
+            "INFJ": 5,
+            "INFP": 2,
+            "ENFJ": 2,
+            "ENFP": 3,
+            "ISTJ": 3,
+            "ISFJ": 5,
+            "ESTJ": 5,
+            "ESFJ": 1,
+            "ISTP": 4,
+            "ISFP": 4,
+            "ESTP": 5,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 3,
+            "ENTJ": 4,
+            "ENTP": 3,
+            "INFJ": 1,
+            "INFP": 4,
+            "ENFJ": 4,
+            "ENFP": 3,
+            "ISTJ": 3,
+            "ISFJ": 5,
+            "ESTJ": 5,
+            "ESFJ": 1,
+            "ISTP": 4,
+            "ISFP": 4,
+            "ESTP": 2,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 3,
+            "ENTJ": 3,
+            "ENTP": 5,
+            "INFJ": 4,
+            "INFP": 2,
+            "ENFJ": 1,
+            "ENFP": 4,
+            "ISTJ": 3,
+            "ISFJ": 3,
+            "ESTJ": 1,
+            "ESFJ": 2,
+            "ISTP": 1,
+            "ISFP": 3,
+            "ESTP": 3,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 5,
+            "INFJ": 3,
+            "INFP": 3,
+            "ENFJ": 3,
+            "ENFP": 3,
+            "ISTJ": 2,
+            "ISFJ": 2,
+            "ESTJ": 2,
+            "ESFJ": 1,
+            "ISTP": 5,
+            "ISFP": 3,
+            "ESTP": 2,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 3,
+            "ENTJ": 5,
+            "ENTP": 2,
+            "INFJ": 3,
+            "INFP": 4,
+            "ENFJ": 1,
+            "ENFP": 5,
+            "ISTJ": 5,
+            "ISFJ": 1,
+            "ESTJ": 5,
+            "ESFJ": 5,
+            "ISTP": 4,
+            "ISFP": 5,
+            "ESTP": 1,
+            "ESFP": 5
+          }
+        }
+      ],
+      "category": "성격"
+    },
+    {
+      "id": 8,
+      "text": "운동에 대해 어떻게 생각하시나요?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 5,
+            "ENTJ": 3,
+            "ENTP": 2,
+            "INFJ": 3,
+            "INFP": 3,
+            "ENFJ": 4,
+            "ENFP": 1,
+            "ISTJ": 2,
+            "ISFJ": 1,
+            "ESTJ": 1,
+            "ESFJ": 2,
+            "ISTP": 4,
+            "ISFP": 1,
+            "ESTP": 3,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 4,
+            "ENTJ": 3,
+            "ENTP": 1,
+            "INFJ": 2,
+            "INFP": 1,
+            "ENFJ": 4,
+            "ENFP": 1,
+            "ISTJ": 5,
+            "ISFJ": 3,
+            "ESTJ": 1,
+            "ESFJ": 4,
+            "ISTP": 3,
+            "ISFP": 2,
+            "ESTP": 4,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 2,
+            "ENTJ": 4,
+            "ENTP": 4,
+            "INFJ": 1,
+            "INFP": 5,
+            "ENFJ": 1,
+            "ENFP": 5,
+            "ISTJ": 1,
+            "ISFJ": 1,
+            "ESTJ": 2,
+            "ESFJ": 1,
+            "ISTP": 1,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 5,
+            "ENTJ": 5,
+            "ENTP": 3,
+            "INFJ": 1,
+            "INFP": 1,
+            "ENFJ": 3,
+            "ENFP": 4,
+            "ISTJ": 2,
+            "ISFJ": 2,
+            "ESTJ": 4,
+            "ESFJ": 3,
+            "ISTP": 5,
+            "ISFP": 3,
+            "ESTP": 1,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 2,
+            "ENTJ": 1,
+            "ENTP": 5,
+            "INFJ": 4,
+            "INFP": 2,
+            "ENFJ": 3,
+            "ENFP": 5,
+            "ISTJ": 5,
+            "ISFJ": 1,
+            "ESTJ": 5,
+            "ESFJ": 1,
+            "ISTP": 5,
+            "ISFP": 1,
+            "ESTP": 3,
+            "ESFP": 3
+          }
+        }
+      ],
+      "category": "관계"
+    },
+    {
+      "id": 9,
+      "text": "운동에 대해 어떻게 생각하시나요?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 1,
+            "ENTJ": 5,
+            "ENTP": 5,
+            "INFJ": 3,
+            "INFP": 5,
+            "ENFJ": 5,
+            "ENFP": 1,
+            "ISTJ": 5,
+            "ISFJ": 5,
+            "ESTJ": 1,
+            "ESFJ": 2,
+            "ISTP": 1,
+            "ISFP": 5,
+            "ESTP": 3,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 5,
+            "INFJ": 2,
+            "INFP": 2,
+            "ENFJ": 5,
+            "ENFP": 5,
+            "ISTJ": 4,
+            "ISFJ": 1,
+            "ESTJ": 5,
+            "ESFJ": 3,
+            "ISTP": 1,
+            "ISFP": 3,
+            "ESTP": 3,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 2,
+            "ENTJ": 4,
+            "ENTP": 4,
+            "INFJ": 1,
+            "INFP": 3,
+            "ENFJ": 5,
+            "ENFP": 3,
+            "ISTJ": 2,
+            "ISFJ": 5,
+            "ESTJ": 4,
+            "ESFJ": 1,
+            "ISTP": 2,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 3,
+            "ENTJ": 1,
+            "ENTP": 1,
+            "INFJ": 2,
+            "INFP": 2,
+            "ENFJ": 2,
+            "ENFP": 4,
+            "ISTJ": 2,
+            "ISFJ": 3,
+            "ESTJ": 1,
+            "ESFJ": 4,
+            "ISTP": 5,
+            "ISFP": 2,
+            "ESTP": 5,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 2,
+            "ENTJ": 4,
+            "ENTP": 2,
+            "INFJ": 3,
+            "INFP": 2,
+            "ENFJ": 5,
+            "ENFP": 4,
+            "ISTJ": 2,
+            "ISFJ": 3,
+            "ESTJ": 1,
+            "ESFJ": 2,
+            "ISTP": 5,
+            "ISFP": 5,
+            "ESTP": 2,
+            "ESFP": 3
+          }
+        }
+      ],
+      "category": "직업"
+    },
+    {
+      "id": 10,
+      "text": "운동에 대한 당신의 관점은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 2,
+            "ENTJ": 4,
+            "ENTP": 4,
+            "INFJ": 3,
+            "INFP": 1,
+            "ENFJ": 3,
+            "ENFP": 5,
+            "ISTJ": 3,
+            "ISFJ": 3,
+            "ESTJ": 3,
+            "ESFJ": 4,
+            "ISTP": 1,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 1,
+            "INFJ": 2,
+            "INFP": 1,
+            "ENFJ": 3,
+            "ENFP": 2,
+            "ISTJ": 2,
+            "ISFJ": 3,
+            "ESTJ": 1,
+            "ESFJ": 3,
+            "ISTP": 3,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 3,
+            "ENTJ": 3,
+            "ENTP": 1,
+            "INFJ": 1,
+            "INFP": 1,
+            "ENFJ": 3,
+            "ENFP": 4,
+            "ISTJ": 4,
+            "ISFJ": 5,
+            "ESTJ": 5,
+            "ESFJ": 5,
+            "ISTP": 3,
+            "ISFP": 2,
+            "ESTP": 2,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 4,
+            "ENTJ": 1,
+            "ENTP": 1,
+            "INFJ": 3,
+            "INFP": 3,
+            "ENFJ": 1,
+            "ENFP": 1,
+            "ISTJ": 1,
+            "ISFJ": 3,
+            "ESTJ": 2,
+            "ESFJ": 4,
+            "ISTP": 2,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 4,
+            "INFJ": 3,
+            "INFP": 3,
+            "ENFJ": 1,
+            "ENFP": 3,
+            "ISTJ": 3,
+            "ISFJ": 1,
+            "ESTJ": 3,
+            "ESFJ": 2,
+            "ISTP": 3,
+            "ISFP": 2,
+            "ESTP": 3,
+            "ESFP": 3
+          }
+        }
+      ],
+      "category": "성격"
+    },
+    {
+      "id": 11,
+      "text": "운동에 대한 당신의 관점은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 4,
+            "ENTJ": 5,
+            "ENTP": 5,
+            "INFJ": 2,
+            "INFP": 2,
+            "ENFJ": 5,
+            "ENFP": 3,
+            "ISTJ": 3,
+            "ISFJ": 4,
+            "ESTJ": 2,
+            "ESFJ": 5,
+            "ISTP": 3,
+            "ISFP": 4,
+            "ESTP": 5,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 3,
+            "ENTJ": 3,
+            "ENTP": 5,
+            "INFJ": 1,
+            "INFP": 3,
+            "ENFJ": 5,
+            "ENFP": 3,
+            "ISTJ": 5,
+            "ISFJ": 5,
+            "ESTJ": 5,
+            "ESFJ": 3,
+            "ISTP": 1,
+            "ISFP": 3,
+            "ESTP": 5,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 2,
+            "ENTJ": 1,
+            "ENTP": 3,
+            "INFJ": 3,
+            "INFP": 2,
+            "ENFJ": 4,
+            "ENFP": 1,
+            "ISTJ": 2,
+            "ISFJ": 4,
+            "ESTJ": 4,
+            "ESFJ": 3,
+            "ISTP": 1,
+            "ISFP": 1,
+            "ESTP": 5,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 3,
+            "INFJ": 5,
+            "INFP": 3,
+            "ENFJ": 4,
+            "ENFP": 4,
+            "ISTJ": 3,
+            "ISFJ": 2,
+            "ESTJ": 4,
+            "ESFJ": 1,
+            "ISTP": 5,
+            "ISFP": 3,
+            "ESTP": 1,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 5,
+            "ENTJ": 5,
+            "ENTP": 2,
+            "INFJ": 5,
+            "INFP": 4,
+            "ENFJ": 5,
+            "ENFP": 4,
+            "ISTJ": 4,
+            "ISFJ": 1,
+            "ESTJ": 3,
+            "ESFJ": 3,
+            "ISTP": 3,
+            "ISFP": 2,
+            "ESTP": 2,
+            "ESFP": 1
+          }
+        }
+      ],
+      "category": "성격"
+    },
+    {
+      "id": 12,
+      "text": "운동에 대한 당신의 관점은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 3,
+            "ENTJ": 4,
+            "ENTP": 2,
+            "INFJ": 1,
+            "INFP": 1,
+            "ENFJ": 3,
+            "ENFP": 3,
+            "ISTJ": 4,
+            "ISFJ": 4,
+            "ESTJ": 1,
+            "ESFJ": 3,
+            "ISTP": 1,
+            "ISFP": 1,
+            "ESTP": 3,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 3,
+            "ENTJ": 2,
+            "ENTP": 3,
+            "INFJ": 3,
+            "INFP": 2,
+            "ENFJ": 1,
+            "ENFP": 5,
+            "ISTJ": 4,
+            "ISFJ": 5,
+            "ESTJ": 3,
+            "ESFJ": 3,
+            "ISTP": 4,
+            "ISFP": 3,
+            "ESTP": 2,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 4,
+            "ENTJ": 2,
+            "ENTP": 4,
+            "INFJ": 1,
+            "INFP": 3,
+            "ENFJ": 5,
+            "ENFP": 3,
+            "ISTJ": 1,
+            "ISFJ": 3,
+            "ESTJ": 1,
+            "ESFJ": 4,
+            "ISTP": 5,
+            "ISFP": 4,
+            "ESTP": 2,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 5,
+            "ENTJ": 5,
+            "ENTP": 2,
+            "INFJ": 5,
+            "INFP": 4,
+            "ENFJ": 4,
+            "ENFP": 4,
+            "ISTJ": 5,
+            "ISFJ": 5,
+            "ESTJ": 1,
+            "ESFJ": 4,
+            "ISTP": 5,
+            "ISFP": 4,
+            "ESTP": 2,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 5,
+            "ENTJ": 5,
+            "ENTP": 4,
+            "INFJ": 3,
+            "INFP": 1,
+            "ENFJ": 5,
+            "ENFP": 5,
+            "ISTJ": 3,
+            "ISFJ": 4,
+            "ESTJ": 4,
+            "ESFJ": 1,
+            "ISTP": 5,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 1
+          }
+        }
+      ],
+      "category": "가치관"
+    },
+    {
+      "id": 13,
+      "text": "운동와 관련된 상황에서 당신의 선택은?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 4,
+            "ENTJ": 3,
+            "ENTP": 4,
+            "INFJ": 4,
+            "INFP": 1,
+            "ENFJ": 3,
+            "ENFP": 1,
+            "ISTJ": 2,
+            "ISFJ": 1,
+            "ESTJ": 4,
+            "ESFJ": 4,
+            "ISTP": 3,
+            "ISFP": 1,
+            "ESTP": 4,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 3,
+            "ENTJ": 3,
+            "ENTP": 5,
+            "INFJ": 4,
+            "INFP": 4,
+            "ENFJ": 3,
+            "ENFP": 2,
+            "ISTJ": 3,
+            "ISFJ": 4,
+            "ESTJ": 3,
+            "ESFJ": 4,
+            "ISTP": 4,
+            "ISFP": 3,
+            "ESTP": 5,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 2,
+            "ENTJ": 2,
+            "ENTP": 1,
+            "INFJ": 3,
+            "INFP": 4,
+            "ENFJ": 5,
+            "ENFP": 3,
+            "ISTJ": 1,
+            "ISFJ": 2,
+            "ESTJ": 2,
+            "ESFJ": 1,
+            "ISTP": 1,
+            "ISFP": 2,
+            "ESTP": 1,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 3,
+            "ENTJ": 3,
+            "ENTP": 5,
+            "INFJ": 4,
+            "INFP": 5,
+            "ENFJ": 5,
+            "ENFP": 5,
+            "ISTJ": 2,
+            "ISFJ": 2,
+            "ESTJ": 1,
+            "ESFJ": 1,
+            "ISTP": 2,
+            "ISFP": 4,
+            "ESTP": 1,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 3,
+            "ENTJ": 2,
+            "ENTP": 3,
+            "INFJ": 2,
+            "INFP": 5,
+            "ENFJ": 5,
+            "ENFP": 1,
+            "ISTJ": 1,
+            "ISFJ": 3,
+            "ESTJ": 4,
+            "ESFJ": 3,
+            "ISTP": 4,
+            "ISFP": 2,
+            "ESTP": 5,
+            "ESFP": 4
+          }
+        }
+      ],
+      "category": "취미"
+    },
+    {
+      "id": 14,
+      "text": "운동에 대해 어떻게 생각하시나요?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 2,
+            "ENTJ": 2,
+            "ENTP": 1,
+            "INFJ": 2,
+            "INFP": 2,
+            "ENFJ": 2,
+            "ENFP": 1,
+            "ISTJ": 1,
+            "ISFJ": 1,
+            "ESTJ": 5,
+            "ESFJ": 1,
+            "ISTP": 1,
+            "ISFP": 1,
+            "ESTP": 2,
+            "ESFP": 2
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 2,
+            "ENTJ": 3,
+            "ENTP": 2,
+            "INFJ": 4,
+            "INFP": 5,
+            "ENFJ": 2,
+            "ENFP": 2,
+            "ISTJ": 2,
+            "ISFJ": 3,
+            "ESTJ": 1,
+            "ESFJ": 1,
+            "ISTP": 1,
+            "ISFP": 5,
+            "ESTP": 1,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 3,
+            "ENTJ": 3,
+            "ENTP": 1,
+            "INFJ": 3,
+            "INFP": 1,
+            "ENFJ": 3,
+            "ENFP": 3,
+            "ISTJ": 5,
+            "ISFJ": 3,
+            "ESTJ": 3,
+            "ESFJ": 3,
+            "ISTP": 2,
+            "ISFP": 5,
+            "ESTP": 5,
+            "ESFP": 3
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 1,
+            "ENTJ": 1,
+            "ENTP": 4,
+            "INFJ": 5,
+            "INFP": 3,
+            "ENFJ": 5,
+            "ENFP": 5,
+            "ISTJ": 1,
+            "ISFJ": 3,
+            "ESTJ": 5,
+            "ESFJ": 3,
+            "ISTP": 1,
+            "ISFP": 5,
+            "ESTP": 3,
+            "ESFP": 5
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 1,
+            "ENTJ": 4,
+            "ENTP": 1,
+            "INFJ": 1,
+            "INFP": 5,
+            "ENFJ": 4,
+            "ENFP": 4,
+            "ISTJ": 5,
+            "ISFJ": 3,
+            "ESTJ": 2,
+            "ESFJ": 5,
+            "ISTP": 3,
+            "ISFP": 3,
+            "ESTP": 3,
+            "ESFP": 2
+          }
+        }
+      ],
+      "category": "관계"
+    },
+    {
+      "id": 15,
+      "text": "운동에 대해 어떻게 생각하시나요?",
+      "options": [
+        {
+          "id": 1,
+          "text": "매우 그렇다",
+          "scores": {
+            "INTJ": 1,
+            "INTP": 3,
+            "ENTJ": 2,
+            "ENTP": 3,
+            "INFJ": 3,
+            "INFP": 3,
+            "ENFJ": 3,
+            "ENFP": 2,
+            "ISTJ": 5,
+            "ISFJ": 4,
+            "ESTJ": 3,
+            "ESFJ": 1,
+            "ISTP": 2,
+            "ISFP": 2,
+            "ESTP": 3,
+            "ESFP": 4
+          }
+        },
+        {
+          "id": 2,
+          "text": "그렇다",
+          "scores": {
+            "INTJ": 4,
+            "INTP": 2,
+            "ENTJ": 5,
+            "ENTP": 2,
+            "INFJ": 2,
+            "INFP": 2,
+            "ENFJ": 4,
+            "ENFP": 4,
+            "ISTJ": 3,
+            "ISFJ": 1,
+            "ESTJ": 3,
+            "ESFJ": 1,
+            "ISTP": 4,
+            "ISFP": 3,
+            "ESTP": 1,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 3,
+          "text": "보통이다",
+          "scores": {
+            "INTJ": 5,
+            "INTP": 2,
+            "ENTJ": 1,
+            "ENTP": 5,
+            "INFJ": 4,
+            "INFP": 4,
+            "ENFJ": 5,
+            "ENFP": 1,
+            "ISTJ": 3,
+            "ISFJ": 2,
+            "ESTJ": 2,
+            "ESFJ": 3,
+            "ISTP": 3,
+            "ISFP": 3,
+            "ESTP": 1,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "아니다",
+          "scores": {
+            "INTJ": 2,
+            "INTP": 3,
+            "ENTJ": 3,
+            "ENTP": 2,
+            "INFJ": 4,
+            "INFP": 1,
+            "ENFJ": 3,
+            "ENFP": 3,
+            "ISTJ": 1,
+            "ISFJ": 1,
+            "ESTJ": 5,
+            "ESFJ": 3,
+            "ISTP": 4,
+            "ISFP": 2,
+            "ESTP": 4,
+            "ESFP": 1
+          }
+        },
+        {
+          "id": 5,
+          "text": "매우 아니다",
+          "scores": {
+            "INTJ": 3,
+            "INTP": 4,
+            "ENTJ": 2,
+            "ENTP": 4,
+            "INFJ": 3,
+            "INFP": 3,
+            "ENFJ": 4,
+            "ENFP": 3,
+            "ISTJ": 4,
+            "ISFJ": 4,
+            "ESTJ": 4,
+            "ESFJ": 4,
+            "ISTP": 4,
+            "ISFP": 5,
+            "ESTP": 3,
+            "ESFP": 3
+          }
+        }
+      ],
+      "category": "성격"
+    }
+  ],
+  "resultTypes": [
+    {
+      "mbtiType": "INTJ",
+      "title": "INTJ 성격 유형",
+      "description": "INTJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "INTP",
+          "INTJ"
+        ],
+        "good": [
+          "ESFJ",
+          "ESTJ",
+          "ENTP"
+        ],
+        "challenging": [
+          "INFJ",
+          "ISFJ",
+          "ISFP"
+        ]
+      },
+      "percentage": {
+        "E": 27,
+        "I": 89,
+        "N": 77,
+        "S": 39,
+        "F": 30,
+        "T": 91,
+        "P": 47,
+        "J": 95
+      },
+      "type": "INTJ"
+    },
+    {
+      "mbtiType": "INTP",
+      "title": "INTP 성격 유형",
+      "description": "INTP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ESFP",
+          "ENTJ"
+        ],
+        "good": [
+          "ESTJ",
+          "ENTP",
+          "ISTP"
+        ],
+        "challenging": [
+          "ISFJ",
+          "INTP",
+          "ISFP"
+        ]
+      },
+      "percentage": {
+        "E": 22,
+        "I": 83,
+        "N": 76,
+        "S": 44,
+        "F": 20,
+        "T": 96,
+        "P": 72,
+        "J": 34
+      },
+      "type": "INTP"
+    },
+    {
+      "mbtiType": "ENTJ",
+      "title": "ENTJ 성격 유형",
+      "description": "ENTJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ISTJ",
+          "ENFP"
+        ],
+        "good": [
+          "ENTJ",
+          "ESFP",
+          "INTP"
+        ],
+        "challenging": [
+          "INFP",
+          "ESTJ",
+          "ISFP"
+        ]
+      },
+      "percentage": {
+        "E": 75,
+        "I": 37,
+        "N": 87,
+        "S": 45,
+        "F": 28,
+        "T": 76,
+        "P": 39,
+        "J": 93
+      },
+      "type": "ENTJ"
+    },
+    {
+      "mbtiType": "ENTP",
+      "title": "ENTP 성격 유형",
+      "description": "ENTP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ENFJ",
+          "ESFP"
+        ],
+        "good": [
+          "ISTJ",
+          "ESTJ",
+          "INTJ"
+        ],
+        "challenging": [
+          "INTP",
+          "ENFP",
+          "ESTP"
+        ]
+      },
+      "percentage": {
+        "E": 93,
+        "I": 20,
+        "N": 75,
+        "S": 37,
+        "F": 26,
+        "T": 88,
+        "P": 93,
+        "J": 27
+      },
+      "type": "ENTP"
+    },
+    {
+      "mbtiType": "INFJ",
+      "title": "INFJ 성격 유형",
+      "description": "INFJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ENTJ",
+          "ESTP"
+        ],
+        "good": [
+          "ENTP",
+          "INFJ",
+          "ESTJ"
+        ],
+        "challenging": [
+          "INTJ",
+          "INTP",
+          "ENFJ"
+        ]
+      },
+      "percentage": {
+        "E": 25,
+        "I": 77,
+        "N": 99,
+        "S": 25,
+        "F": 78,
+        "T": 40,
+        "P": 35,
+        "J": 76
+      },
+      "type": "INFJ"
+    },
+    {
+      "mbtiType": "INFP",
+      "title": "INFP 성격 유형",
+      "description": "INFP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ESTP",
+          "INTJ"
+        ],
+        "good": [
+          "ENTJ",
+          "ESFJ",
+          "ENFJ"
+        ],
+        "challenging": [
+          "ENTP",
+          "INTP",
+          "INFJ"
+        ]
+      },
+      "percentage": {
+        "E": 45,
+        "I": 83,
+        "N": 79,
+        "S": 25,
+        "F": 78,
+        "T": 43,
+        "P": 93,
+        "J": 25
+      },
+      "type": "INFP"
+    },
+    {
+      "mbtiType": "ENFJ",
+      "title": "ENFJ 성격 유형",
+      "description": "ENFJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ESFJ",
+          "ISFJ"
+        ],
+        "good": [
+          "ENTP",
+          "ENFJ",
+          "ISTJ"
+        ],
+        "challenging": [
+          "ISFP",
+          "ESTP",
+          "ENFP"
+        ]
+      },
+      "percentage": {
+        "E": 97,
+        "I": 43,
+        "N": 97,
+        "S": 48,
+        "F": 97,
+        "T": 33,
+        "P": 21,
+        "J": 84
+      },
+      "type": "ENFJ"
+    },
+    {
+      "mbtiType": "ENFP",
+      "title": "ENFP 성격 유형",
+      "description": "ENFP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "INFP",
+          "ENTJ"
+        ],
+        "good": [
+          "ISFJ",
+          "INTP",
+          "ENTP"
+        ],
+        "challenging": [
+          "ISTP",
+          "INFJ",
+          "ISTJ"
+        ]
+      },
+      "percentage": {
+        "E": 84,
+        "I": 47,
+        "N": 71,
+        "S": 35,
+        "F": 82,
+        "T": 47,
+        "P": 82,
+        "J": 37
+      },
+      "type": "ENFP"
+    },
+    {
+      "mbtiType": "ISTJ",
+      "title": "ISTJ 성격 유형",
+      "description": "ISTJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ESFJ",
+          "ISTJ"
+        ],
+        "good": [
+          "INTJ",
+          "ENFP",
+          "ISFJ"
+        ],
+        "challenging": [
+          "ENFJ",
+          "ISFP",
+          "ESFP"
+        ]
+      },
+      "percentage": {
+        "E": 32,
+        "I": 72,
+        "N": 38,
+        "S": 70,
+        "F": 29,
+        "T": 72,
+        "P": 46,
+        "J": 97
+      },
+      "type": "ISTJ"
+    },
+    {
+      "mbtiType": "ISFJ",
+      "title": "ISFJ 성격 유형",
+      "description": "ISFJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "INFJ",
+          "ISFP"
+        ],
+        "good": [
+          "ENFP",
+          "ESFP",
+          "ESTJ"
+        ],
+        "challenging": [
+          "INFP",
+          "INTJ",
+          "INTP"
+        ]
+      },
+      "percentage": {
+        "E": 21,
+        "I": 84,
+        "N": 45,
+        "S": 88,
+        "F": 70,
+        "T": 29,
+        "P": 34,
+        "J": 82
+      },
+      "type": "ISFJ"
+    },
+    {
+      "mbtiType": "ESTJ",
+      "title": "ESTJ 성격 유형",
+      "description": "ESTJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "INFP",
+          "ESFJ"
+        ],
+        "good": [
+          "ESFP",
+          "INTP",
+          "ISTP"
+        ],
+        "challenging": [
+          "ENTP",
+          "ENFJ",
+          "ISFJ"
+        ]
+      },
+      "percentage": {
+        "E": 91,
+        "I": 20,
+        "N": 42,
+        "S": 85,
+        "F": 47,
+        "T": 78,
+        "P": 43,
+        "J": 89
+      },
+      "type": "ESTJ"
+    },
+    {
+      "mbtiType": "ESFJ",
+      "title": "ESFJ 성격 유형",
+      "description": "ESFJ 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "INTJ",
+          "ESTP"
+        ],
+        "good": [
+          "INTP",
+          "ENTP",
+          "INFP"
+        ],
+        "challenging": [
+          "ISTJ",
+          "ISFP",
+          "ESFJ"
+        ]
+      },
+      "percentage": {
+        "E": 95,
+        "I": 32,
+        "N": 35,
+        "S": 92,
+        "F": 72,
+        "T": 32,
+        "P": 37,
+        "J": 88
+      },
+      "type": "ESFJ"
+    },
+    {
+      "mbtiType": "ISTP",
+      "title": "ISTP 성격 유형",
+      "description": "ISTP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ENFP",
+          "ESTJ"
+        ],
+        "good": [
+          "ESFJ",
+          "ISFP",
+          "INTJ"
+        ],
+        "challenging": [
+          "ISFJ",
+          "ENTJ",
+          "ESTP"
+        ]
+      },
+      "percentage": {
+        "E": 48,
+        "I": 87,
+        "N": 42,
+        "S": 96,
+        "F": 36,
+        "T": 81,
+        "P": 74,
+        "J": 20
+      },
+      "type": "ISTP"
+    },
+    {
+      "mbtiType": "ISFP",
+      "title": "ISFP 성격 유형",
+      "description": "ISFP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ISFP",
+          "INTP"
+        ],
+        "good": [
+          "ENTJ",
+          "ESFJ",
+          "ENTP"
+        ],
+        "challenging": [
+          "ESTJ",
+          "ISTP",
+          "ENFP"
+        ]
+      },
+      "percentage": {
+        "E": 36,
+        "I": 79,
+        "N": 45,
+        "S": 73,
+        "F": 99,
+        "T": 49,
+        "P": 78,
+        "J": 24
+      },
+      "type": "ISFP"
+    },
+    {
+      "mbtiType": "ESTP",
+      "title": "ESTP 성격 유형",
+      "description": "ESTP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "INTJ",
+          "ENFJ"
+        ],
+        "good": [
+          "INTP",
+          "ESTJ",
+          "INFP"
+        ],
+        "challenging": [
+          "ISTJ",
+          "ISTP",
+          "ESFP"
+        ]
+      },
+      "percentage": {
+        "E": 92,
+        "I": 21,
+        "N": 33,
+        "S": 90,
+        "F": 31,
+        "T": 74,
+        "P": 74,
+        "J": 49
+      },
+      "type": "ESTP"
+    },
+    {
+      "mbtiType": "ESFP",
+      "title": "ESFP 성격 유형",
+      "description": "ESFP 유형의 특징적인 성격을 가지고 있습니다.",
+      "characteristics": [
+        "분석적 사고",
+        "창의적 문제해결",
+        "논리적 판단",
+        "직관적 통찰"
+      ],
+      "strengths": [
+        "논리적 사고",
+        "창의성",
+        "리더십"
+      ],
+      "weaknesses": [
+        "완벽주의",
+        "감정적 민감성"
+      ],
+      "careerSuggestions": [
+        "엔지니어",
+        "디자이너",
+        "교사",
+        "의사"
+      ],
+      "compatibility": {
+        "best": [
+          "ENFP",
+          "INFP"
+        ],
+        "good": [
+          "ISFP",
+          "ESTP",
+          "ESFP"
+        ],
+        "challenging": [
+          "ENTJ",
+          "ENTP",
+          "ENFJ"
+        ]
+      },
+      "percentage": {
+        "E": 76,
+        "I": 37,
+        "N": 46,
+        "S": 95,
+        "F": 71,
+        "T": 47,
+        "P": 82,
+        "J": 24
+      },
+      "type": "ESFP"
+    }
+  ],
+  "createdAt": "2025-08-12T07:17:40.028Z",
+  "updatedAt": "2025-08-12T07:17:40.028Z",
+  "tags": [
+    "운동",
+    "MBTI",
+    "성격테스트"
+  ],
+  "estimatedTime": 5,
+  "difficulty": "medium"
+}

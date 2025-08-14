@@ -1,0 +1,29 @@
+{
+    "include": [
+        "."
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        "**/*.pyc",
+        "venv",
+        ".venv",
+        "migrations"
+    ],
+    "ignore": [],
+    "defineConstant": {},
+    "typeCheckingMode": "basic",
+    "useLibraryCodeForTypes": true,
+    "autoImportCompletions": true,
+    "autoSearchPaths": true,
+    "extraPaths": [
+        ".",
+        "api",
+        "mbti_hub"
+    ],
+    "stubPath": "./typings",
+    "venvPath": ".",
+    "venv": "venv",
+    "pythonVersion": "3.12",
+    "pythonPlatform": "Windows"
+}
