@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { motion } from 'framer-motion'
 
 const AboutPage = () => {
@@ -13,7 +13,7 @@ const AboutPage = () => {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-800 mb-4">MBTI Hub 소개</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            다양한 MBTI 성격 유형 테스트를 통해 자신을 더 깊이 이해하고, 
+            다양한 MBTI 성격 유형 테스트를 통해 자신을 더 깊이 이해하고,
             AI 기반의 정확한 분석으로 의미 있는 인사이트를 제공합니다.
           </p>
         </div>
@@ -27,7 +27,7 @@ const AboutPage = () => {
         >
           <h2 className="text-3xl font-bold mb-4">우리의 미션</h2>
           <p className="text-lg leading-relaxed opacity-90">
-            MBTI Hub는 개인의 성격 유형을 정확하고 재미있게 분석하여, 
+            MBTI Hub는 개인의 성격 유형을 정확하고 재미있게 분석하여,
             자신을 더 잘 이해하고 타인과의 관계를 개선할 수 있도록 돕는 것을 목표로 합니다.
           </p>
         </motion.div>

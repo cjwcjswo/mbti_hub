@@ -1,5 +1,4 @@
-import { useEffect } from 'react'
-import { AdSlot } from '../types'
+import { useEffect } from 'react';
 
 interface AdBannerProps {
   position: 'header' | 'sidebar' | 'footer' | 'content'
@@ -18,17 +17,17 @@ const AdBanner = ({ position }: AdBannerProps) => {
   }, []);
 
   // 실제 광고 설정에 따라 조건부 렌더링
-  const showAds = process.env.NODE_ENV === 'production' && process.env.REACT_APP_ADS_ENABLED === 'true';
+  const showAds = import.meta.env.MODE === 'production' && import.meta.env.VITE_ADS_ENABLED === 'true';
 
   const getAdClasses = () => {
     const baseClasses = "w-full bg-gray-50 border border-dashed border-gray-300 flex items-center justify-center";
-    const heightClasses = position === 'header' || position === 'footer' 
-      ? "min-h-[90px] md:min-h-[90px]" 
+    const heightClasses = position === 'header' || position === 'footer'
+      ? "min-h-[90px] md:min-h-[90px]"
       : "min-h-[250px] md:min-h-[250px]";
-    const marginClasses = position === 'header' 
-      ? "mb-4" 
+    const marginClasses = position === 'header'
+      ? "mb-4"
       : "my-4";
-    
+
     return `${baseClasses} ${heightClasses} ${marginClasses}`;
   };
 
@@ -50,7 +49,7 @@ const AdBanner = ({ position }: AdBannerProps) => {
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
-        data-ad-client={process.env.REACT_APP_ADSENSE_CLIENT_ID}
+        data-ad-client={import.meta.env.VITE_ADSENSE_CLIENT_ID}
         data-ad-slot={getAdSlot(position)}
         data-ad-format="auto"
         data-full-width-responsive="true"
@@ -67,7 +66,7 @@ const getAdSlot = (position: string): string => {
     content: '1122334455',
     sidebar: '5566778899'
   };
-  
+
   return adSlots[position] || '1234567890';
 };
 
